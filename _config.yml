@@ -16,3 +16,5 @@ markdown: kramdown
 # Kramdown settings
 kramdown:
   input: GFM
+
+exclude: [vendor]

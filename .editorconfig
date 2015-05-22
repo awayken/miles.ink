@@ -13,5 +13,8 @@ trim_trailing_whitespace = true
 [_config.yml]
 indent_size = 2
 
+[.travis.yml]
+indent_size = 2
+
 [*.md]
 trim_trailing_whitespace = false

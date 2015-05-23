@@ -1,18 +1,46 @@
-# Site settings
-title: Miles.ink
-email: miles@milesrausch.com
-description: >
-  A ways to go before it dries.
-baseurl: ""
-url: "http://miles.ink"
-twitter_username: awayken
-github_username:  awayken
-
-# Build settings
+# Global Configuration
+base_url: ""
+excerpt_separator: "<!--more-->"
+encoding: "utf-8"
+exclude: ["_site_content.scriv", "Gemfile", "Gemfile.lock", "README.md"]
+host: 127.0.0.1
 markdown: kramdown
+timezone: "America/North_Dakota/Center"
 
-# Kramdown settings
+
+# Default Configuration
+defaults:
+  -
+    scope:
+      path: ""
+      type: "drafts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      categories: "news"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+
+# Kramdown Configuration
 kramdown:
   input: GFM
 
-exclude: [vendor]
+
+# Site settings
+title: Miles.ink
+url: "http://miles.ink"
+email: miles@milesrausch.com
+description: >
+  A ways to go before it dries.
+twitter_username: awayken
+github_username:  awayken

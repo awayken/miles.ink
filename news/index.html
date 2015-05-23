@@ -1,0 +1,19 @@
+---
+title: News
+permalink: /news/
+---
+<ul class="news">
+    {% for post in site.posts %}
+        <li class="news--item">
+            <span class="news--meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+            <h2 class="news--heading">
+                <a class="news--link" href="{{ post.url | prepend: site.baseurl }}">
+                    {{ post.title }}
+                </a>
+            </h2>
+
+            <div class="news--excerpt">{{ post.excerpt }}</div>
+        </li>
+    {% endfor %}
+</ul>

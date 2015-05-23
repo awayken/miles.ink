@@ -1,0 +1,21 @@
+---
+layout: page
+title: Blog
+permalink: /blog/
+---
+
+<ul class="bloglist">
+    {% for post in site.posts %}
+        <li class="bloglist--item">
+            <span class="bloglist--meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+            <h2 class="bloglist--heading">
+                <a class="bloglist--link" href="{{ post.url | prepend: site.baseurl }}">
+                    {{ post.title }}
+                </a>
+            </h2>
+
+            <div class="bloglist--excerpt">{{ post.excerpt }}</div>
+        </li>
+    {% endfor %}
+</ul>

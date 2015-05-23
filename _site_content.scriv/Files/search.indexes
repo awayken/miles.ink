@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SearchIndexes Version="1.0">
+    <Documents>
+        <Document ID="3">
+            <Title>Homepage</Title>
+        </Document>
+        <Document ID="8">
+            <Title>Patreon</Title>
+        </Document>
+        <Document ID="4">
+            <Title>Support</Title>
+        </Document>
+        <Document ID="11">
+            <Title>About Miles</Title>
+        </Document>
+        <Document ID="9">
+            <Title>Homepage</Title>
+        </Document>
+        <Document ID="5">
+            <Title>About Miles</Title>
+        </Document>
+        <Document ID="12">
+            <Title>Blog</Title>
+        </Document>
+        <Document ID="6">
+            <Title>Blog</Title>
+        </Document>
+        <Document ID="10">
+            <Title>Support</Title>
+        </Document>
+    </Documents>
+</SearchIndexes>

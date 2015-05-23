@@ -1,6 +1,7 @@
+{% assign navigation = site.pages | sort: "nav_order" %}
 <nav class="nav" role="navigation">
     <ul class="nav--items">
-        {% for page in site.pages %}
+        {% for page in navigation %}
             {% if page.title %}
                 <li class="nav--item">
                     <a class="nav--link" href="{{ page.url | prepend: site.baseurl }}">

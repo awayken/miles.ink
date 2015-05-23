@@ -29,6 +29,7 @@ defaults:
       type: "pages"
     values:
       layout: "page"
+      nav_order: 100
 
 
 # Kramdown Configuration

@@ -18,5 +18,15 @@ layout: default
   </ul>
 
   <p class="rss-subscribe">Subscribe <a href="{{ "/news/feed.xml" | prepend: site.baseurl }}">via <abbr title="Real Syndicated Syntax">RSS</abbr></a></p>
+    <h1 class="page-heading">Members</h1>
+    <ul>
+    {% for member in site.data.members %}
+        <li>
+            <a href="https://github.com/{{ member.github }}">
+                {{ member.name }}
+            </a>
+        </li>
+    {% endfor %}
+    </ul>
 
 </div>

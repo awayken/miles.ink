@@ -2,22 +2,21 @@
 layout: default
 ---
 <div class="home">
+    <h1 class="page-heading">News</h1>
 
-  <h1 class="page-heading">News</h1>
-
-  <ul class="post-list">
+    <ul class="post-list">
     {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
+        <li>
+            <h2>
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+                    {{ post.title }}
+                </a>
+            </h2>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        </li>
     {% endfor %}
-  </ul>
+    </ul>
 
-  <p class="rss-subscribe">Subscribe <a href="{{ "/news/feed.xml" | prepend: site.baseurl }}">via <abbr title="Real Syndicated Syntax">RSS</abbr></a></p>
     <h1 class="page-heading">Members</h1>
     <ul>
     {% for member in site.data.members %}
@@ -29,4 +28,5 @@ layout: default
     {% endfor %}
     </ul>
 
+    <p class="rss-subscribe">Subscribe <a href="/news/feed.xml">via <abbr title="Real Syndicated Syntax">RSS</abbr></a></p>
 </div>

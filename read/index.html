@@ -3,4 +3,37 @@ title: Read &amp; Discover
 permalink: /read/
 nav_order: 10
 ---
-Read my works.
+<p>Plenty of my stuff is online for free. Why? Because I'm an idiot, apparently. No, but serious, though, folks: I've been around. Part of trying to get people to publish you is letting other people publish you way out in the open. Read some of my stuff below.</p>
+
+<p>Do you want access to an exclusive ebook of some of my short stories? <a href="https://www.patreon.com/user?u=784219&ty=h" target="_blank">Support me on Patreon</a> and get at least that free ebook as a reward. Learn more about how you can support my habit on my <a href="/support/">Support page</a>.</p>
+
+<h2>Short Stories</h2>
+
+<ul class="story">
+{% for story in site.data.short_stories %}
+    <li class="story--item">
+        <h3 class="story--title">
+            {{ story.title }}
+        </h3>
+        <p class="story--summary">
+            {{ story.summary }}
+
+            <span class="story--published">
+                Published on {{ story.publish_date | date_to_string }}.
+            </span>
+        </p>
+        <ol class="story--links">
+            <li class="story--link">
+                <a href="{{ story.links.foreign }}" target="_blank">
+                    Read elsewhere.
+                </a>
+            </li>
+            <li class="story--link">
+                <a href="{{ story.links.download }}">
+                    Download here.
+                </a>
+            </li>
+        </ol>
+    </li>
+{% endfor %}
+</ul>

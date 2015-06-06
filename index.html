@@ -17,16 +17,5 @@ layout: default
     {% endfor %}
     </ul>
 
-    <h1 class="page-heading">Members</h1>
-    <ul>
-    {% for member in site.data.members %}
-        <li>
-            <a href="https://github.com/{{ member.github }}">
-                {{ member.name }}
-            </a>
-        </li>
-    {% endfor %}
-    </ul>
-
     <p class="rss-subscribe">Subscribe <a href="/news/feed.xml">via <abbr title="Real Syndicated Syntax">RSS</abbr></a></p>
 </div>

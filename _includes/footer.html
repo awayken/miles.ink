@@ -1,42 +1,25 @@
-<footer class="site-footer">
+<footer class="footer" role="sitecontent">
+    <h3 class="footer--follow">Follow Miles</h3>
 
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col  footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+    <nav class="footer--nav nav" role="navigation">
+        <ul class="nav--list">
+            <li class="nav--item">
+                <a class="nav--link" href="https://www.patreon.com/user?u=784219&amp;ty=h" target="_blank">
+                    On Patreon
+                </a>
+            </li>
+            <li class="nav--item">
+                <a class="nav--link" href="https://twitter.com/awayken" target="_blank">
+                    On Twitter
+                </a>
+            </li>
+            <li class="nav--item">
+                <a class="nav--link" href="https://github.com/awayken/miles.ink" target="_blank">
+                    On GitHub
+                </a>
+            </li>
         </ul>
-      </div>
+    </nav>
 
-      <div class="footer-col  footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            <a href="https://github.com/{{ site.github_username }}">
-              <span class="username">{{ site.github_username }}</span> on GitHub
-            </a>
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            <a href="https://twitter.com/{{ site.twitter_username }}">
-              <span class="username">{{ site.twitter_username }}</span> on Twitter
-            </a>
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col  footer-col-3">
-        <p class="text">{{ site.description }}</p>
-      </div>
-    </div>
-
-  </div>
-
+    <span class="footer--copyright">&copy; Miles Rausch</span>
 </footer>

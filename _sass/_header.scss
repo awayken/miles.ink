@@ -1,0 +1,23 @@
+/**
+*** Header block
+**/
+
+.header {
+    margin-bottom: 1em;
+}
+
+.header--name {
+    display: inline-block;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 1em 0;
+}
+
+.header--link {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.header--description {
+    display: inline-block;
+}

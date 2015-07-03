@@ -27,7 +27,16 @@ a:active {
     background: rgba(255, 255, 255, .98);
     margin: 0 auto;
     max-width: 75em;
-    padding: .5em 1em;
+}
+
+.page > * {
+    padding: .25em 1em;
+}
+.page > *:first-child {
+    padding: 1em 1em .5em;
+}
+.page > *:last-child {
+    padding: .5em 1em 1em;
 }
 
 @media screen and (min-width: 75em) {

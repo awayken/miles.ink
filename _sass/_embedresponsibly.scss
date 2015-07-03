@@ -1,6 +1,7 @@
 /**
  * Styling taken from http://embedresponsively.com/
  */
+
 .embed-container {
     height: 0;
     max-width: 100%;
@@ -8,6 +9,7 @@
     padding-bottom: 56.25%;
     position: relative;
 }
+
 .embed-container iframe,
 .embed-container object,
 .embed-container embed {

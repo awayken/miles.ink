@@ -8,10 +8,10 @@
 
 .header--name {
     display: inline-block;
-    font-size: 1.5em;
     font-family: "Sorts Mill Goudy", Georgia, serif;
+    font-size: 2.7em;
     margin: 0;
-    padding: 1em 0;
+    padding: .2em 0;
 }
 
 .header--link {
@@ -22,4 +22,9 @@
 .header--description {
     display: inline-block;
     font-family: "Kurale", Georgia, serif;
+    font-size: 1.5em;
+}
+
+.header--name + .header--description {
+    margin-left: .25em;
 }

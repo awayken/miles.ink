@@ -1,21 +1,22 @@
 ---
 layout: default
 ---
-<div class="home">
-    <h1 class="page-heading">News</h1>
+<div class="news">
+    <h2 class="news--headline">News</h2>
 
-    <ul class="post-list">
-    {% for post in site.posts %}
-        <li>
-            <h2>
-                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-                    {{ post.title }}
-                </a>
-            </h2>
-            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        </li>
-    {% endfor %}
-    </ul>
+    <ol class="news--list">
+        {% for post in site.posts %}
+            <li class="news--item">
+                <h3 class="news--heading">
+                    <a class="news--link" href="{{ post.url }}">
+                        {{ post.title }}
+                    </a>
+                </h3>
 
-    <p class="rss-subscribe">Subscribe <a href="/news/feed.xml">via <abbr title="Real Syndicated Syntax">RSS</abbr></a></p>
+                <span class="news--meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            </li>
+        {% endfor %}
+    </ol>
+
+    <span class="news--subscribe">Subscribe <a href="/news/feed.xml">via <abbr title="Real Syndicated Syntax">RSS</abbr></a></span>
 </div>

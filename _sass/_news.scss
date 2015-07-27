@@ -1,0 +1,77 @@
+/**
+*** News
+**/
+
+@import "_variables";
+
+.news--headline {
+    font-size: 1.5em;
+    line-height: 1.3;
+    margin: 0 0 .5em 0;
+    padding: 0;
+}
+
+.news--list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.news--item {
+    margin-bottom: 1em;
+}
+
+.news--heading,
+.news--meta {
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+.news--heading {
+    font-size: 1.25em;
+    line-height: 1.3;
+    margin: 0;
+    padding: 0;
+}
+
+.news--meta {
+    font-size: .9em;
+    font-style: italic;
+}
+.news--meta:before {
+    content: "(";
+}
+.news--meta:after {
+    content: ")";
+}
+
+.news--heading + .news--meta {
+    margin-left: .25em;
+}
+
+.news--excerpt {
+    border-left: 2px solid $color-accent;
+    display: block;
+    margin-top: .5em;
+    padding: .25em .25em .25em .5em;
+}
+.news--excerpt p {
+    margin: 0;
+}
+.news--excerpt p + p {
+    margin-top: .5em;
+}
+
+.news--subscribe {
+    display: block;
+}
+
+.news--tag {
+    display: inline-block;
+    font-size: .9em;
+    font-style: italic;
+    vertical-align: top;
+}
+.news--tag + .news--tag {
+    margin-left: .25em;
+}

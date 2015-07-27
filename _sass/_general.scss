@@ -25,32 +25,42 @@ a:active {
 .page {
     box-sizing: border-box;
     background: rgba(255, 255, 255, .98);
-    margin: 0 auto;
+    margin: 0;
     max-width: 75em;
 }
 
 .page > * {
-    padding: .25em 1em;
-}
-.page > *:first-child {
-    padding: 1em 1em .5em;
-}
-.page > *:last-child {
-    padding: .5em 1em 1em;
+    padding: 0 .25em;
 }
 
-@media screen and (min-width: 75em) {
+@media screen and (min-width: 48em) {
     html {
-        background: transparent;
+        background: url("/files/bookshelf.jpg") no-repeat center top #c3bfad;
+        background-size: cover;
     }
 
     body {
-        background: url("/files/bookshelf.jpg") no-repeat center top #fff;
-        background-size: cover;
+        background: transparent;
     }
 
     .page {
         box-shadow: 0 0 .45em rgba(0, 0, 0, .4);
-        margin-top: 8em;
+        margin: 1em;
+    }
+
+    .page > * {
+        padding-left: .5em;
+        padding-right: .5em;
+    }
+}
+
+@media screen and (min-width: 75em) {
+    .page {
+        margin: 8em auto 1em auto;
+    }
+
+    .page > * {
+        padding-left: 1em;
+        padding-right: 1em;
     }
 }

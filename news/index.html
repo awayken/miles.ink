@@ -7,11 +7,11 @@ nav_order: 20
     <ol class="news--list">
         {% for post in site.posts %}
             <li class="news--item">
-                <h2 class="news--heading">
+                <h3 class="news--heading">
                     <a class="news--link" href="{{ post.url }}">
                         {{ post.title }}
                     </a>
-                </h2>
+                </h3>
 
                 <span class="news--meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 

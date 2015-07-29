@@ -22,6 +22,20 @@ a:active {
     color: darken($color-brand, 15%);
 }
 
+h1,
+h2 {
+    font-family: "Vollkorn", Georgia, serif;
+    line-height: 1;
+}
+
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Kurale", Georgia, serif;
+    line-height: 1.3;
+}
+
 .page {
     box-sizing: border-box;
     background: rgba(255, 255, 255, .98);

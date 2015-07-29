@@ -3,18 +3,22 @@ title: News
 permalink: /news/
 nav_order: 20
 ---
-<ul class="news">
-    {% for post in site.posts %}
-        <li class="news--item">
-            <span class="news--meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+<div class="news">
+    <ol class="news--list">
+        {% for post in site.posts %}
+            <li class="news--item">
+                <h3 class="news--heading">
+                    <a class="news--link" href="{{ post.url }}">
+                        {{ post.title }}
+                    </a>
+                </h3>
 
-            <h2 class="news--heading">
-                <a class="news--link" href="{{ post.url | prepend: site.baseurl }}">
-                    {{ post.title }}
-                </a>
-            </h2>
+                <span class="news--meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-            <div class="news--excerpt">{{ post.excerpt }}</div>
-        </li>
-    {% endfor %}
-</ul>
+                <div class="news--excerpt">{{ post.excerpt }}</div>
+            </li>
+        {% endfor %}
+    </ol>
+
+    <span class="news--subscribe">Subscribe <a href="/news/feed.xml">via <abbr title="Real Syndicated Syntax">RSS</abbr></a></span>
+</div>

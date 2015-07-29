@@ -5,7 +5,6 @@
 .nav {
     font-size: 1.125em;
     margin-bottom: 1em;
-    text-align: center;
 }
 
 .nav--list {
@@ -13,6 +12,7 @@
     margin: 0;
     overflow: auto;
     padding: .5em 0;
+    text-align: center;
     white-space: nowrap;
 }
 
@@ -24,4 +24,8 @@
 
 .nav--item + .nav--item {
     padding-left: 1em;
+}
+
+.nav--back::before {
+    content: "<";
 }

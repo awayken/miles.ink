@@ -8,7 +8,7 @@
         {{ site.title }}
     </title>
 
-    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | strip_html | strip_newlines }}{% endif %}">
 
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Vollkorn|Kurale">
     <link rel="stylesheet" href="/styles/main.css">

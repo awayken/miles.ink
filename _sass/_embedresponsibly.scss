@@ -1,15 +1,14 @@
 /**
- * Styling taken from http://embedresponsively.com/
- */
+*** Styling taken from http://embedresponsively.com/
+**/
 
 .embed-container {
     height: 0;
     margin: 0 auto;
-    max-width: 562px;
+    max-width: 100%;
     overflow: hidden;
     padding-bottom: 56.25%;
     position: relative;
-    width: 100%;
 }
 
 .embed-container iframe,

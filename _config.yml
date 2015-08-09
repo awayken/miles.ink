@@ -37,6 +37,11 @@ kramdown:
   input: GFM
 
 
+# Sass Configuration
+sass:
+  style: compressed
+
+
 # Site settings
 title: Miles.ink
 url: "http://miles.ink"

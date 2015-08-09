@@ -24,16 +24,28 @@ a:active {
 
 h1,
 h2 {
-    font-family: "Vollkorn", Georgia, serif;
     line-height: 1;
+}
+
+.wf-vollkorn-n4-active h1,
+.wf-vollkorn-n4-active h2 {
+    font-family: "Vollkorn", Georgia, serif;
+    font-weight: normal;
 }
 
 h3,
 h4,
 h5,
 h6 {
-    font-family: "Kurale", Georgia, serif;
     line-height: 1.3;
+}
+
+.wf-kurale-n4-active h3,
+.wf-kurale-n4-active h4,
+.wf-kurale-n4-active h5,
+.wf-kurale-n4-active h6 {
+    font-family: "Kurale", Georgia, serif;
+    font-weight: normal;
 }
 
 .page {

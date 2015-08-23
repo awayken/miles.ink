@@ -5,7 +5,7 @@
 @import "_variables";
 
 .news--headline {
-    font-size: 1.5em;
+    font-size: $size-huge;
     line-height: 1.3;
     margin: 0 0 .5em 0;
     padding: 0;
@@ -28,14 +28,14 @@
 }
 
 .news--heading {
-    font-size: 1.25em;
+    font-size: $size-large;
     line-height: 1.3;
     margin: 0;
     padding: 0;
 }
 
 .news--meta {
-    font-size: .9em;
+    font-size: $size-small;
     font-style: italic;
 }
 .news--meta:before {
@@ -68,10 +68,36 @@
 
 .news--tag {
     display: inline-block;
-    font-size: .9em;
+    font-size: $size-small;
     font-style: italic;
     vertical-align: top;
 }
 .news--tag + .news--tag {
     margin-left: .25em;
+}
+
+@media print {
+    .news--headline {
+        font-size: $size-print-huge;
+    }
+
+    .news--heading {
+        font-size: $size-print-large;
+    }
+    .news--heading .news--link:after {
+        content: "http://miles.ink" attr(href);
+        display: block;
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: $size-print-base;
+        font-weight: normal;
+    }
+
+    .news--meta,
+    .news--tag {
+        font-size: $size-print-small;
+    }
+
+    .news--excerpt {
+        border-left: 2px solid $color-text;
+    }
 }

@@ -7,7 +7,6 @@
 .footer {
     background: $color-brand;
     color: #fff;
-    margin-bottom: 1em;
     padding-bottom: .5em;
     padding-top: .5em;
     text-align: center;
@@ -24,16 +23,36 @@
 }
 
 .footer--follow {
-    font-size: 1em;
+    font-size: $size-base;
     margin: 0;
 }
 
 .footer--nav {
-    font-size: 1em;
+    font-size: $size-base;
     margin-bottom: 1em;
     margin-top: .5em;
 }
 
 .footer--copyright {
-    font-size: .875em;
+    font-size: $size-small;
+}
+
+@media print {
+    .footer {
+        background: transparent;
+        color: $color-text;
+    }
+
+    .footer a {
+        color: $color-text;
+    }
+
+    .footer--follow,
+    .footer--nav {
+        display: none;
+    }
+
+    .footer--copyright {
+        font-size: $size-print-small;
+    }
 }

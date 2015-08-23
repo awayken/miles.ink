@@ -2,13 +2,15 @@
 *** Header block
 **/
 
+@import "_variables";
+
 .header {
     margin-bottom: 1em;
 }
 
 .header--name {
     display: inline-block;
-    font-size: 2.7em;
+    font-size: $size-giant;
     line-height: 1.3;
     margin: 0 .25em 0 0;
     padding: .2em 0;
@@ -26,11 +28,25 @@
 
 .header--description {
     display: inline-block;
-    font-size: 1.5em;
+    font-size: $size-huge;
     line-height: 1;
 }
 
 .wf-kurale-n4-active .header--description {
     font-family: "Kurale", Georgia, serif;
     font-weight: normal;
+}
+
+@media print {
+    .header--name {
+        font-size: $size-print-giant;
+    }
+
+    [href^="/"].header--link:after {
+        display: none;
+    }
+
+    .header--description {
+        font-size: $size-print-huge;
+    }
 }

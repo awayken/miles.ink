@@ -2,8 +2,10 @@
 *** Nav
 **/
 
+@import "_variables";
+
 .nav {
-    font-size: 1.125em;
+    font-size: $size-large;
     margin-bottom: 1em;
 }
 
@@ -28,4 +30,10 @@
 
 .nav--back::before {
     content: "<";
+}
+
+@media print {
+    .nav {
+        display: none;
+    }
 }

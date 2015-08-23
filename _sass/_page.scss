@@ -1,0 +1,57 @@
+/**
+*** Page
+**/
+
+@import "_variables";
+
+.page {
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, .98);
+    margin: 0;
+    max-width: 75em;
+}
+
+.page > * {
+    padding: 0 .25em;
+}
+
+.page--headline {
+    font-size: $size-huge;
+    line-height: 1.3;
+    margin: 0 0 .5em 0;
+    padding: 0;
+}
+
+@media screen and (min-width: 48em) {
+    .page {
+        box-shadow: 0 0 .45em rgba(0, 0, 0, .4);
+        margin: 1em;
+    }
+
+    .page > * {
+        padding-left: .5em;
+        padding-right: .5em;
+    }
+}
+
+@media screen and (min-width: 75em) {
+    .page {
+        margin: 8em auto 1em auto;
+    }
+
+    .page > * {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+}
+
+@media print {
+    .page {
+        background: transparent;
+        max-width: none;
+    }
+
+    .page--headline {
+        font-size: $size-print-huge;
+    }
+}

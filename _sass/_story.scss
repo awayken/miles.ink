@@ -5,7 +5,7 @@
 @import "_variables";
 
 .story--headline {
-    font-size: 1.5em;
+    font-size: $size-huge;
     line-height: 1.3;
     margin: 0 0 .5em 0;
     padding: 0;
@@ -28,14 +28,14 @@
 }
 
 .story--heading {
-    font-size: 1.25em;
+    font-size: $size-large;
     line-height: 1.3;
     margin: 0;
     padding: 0;
 }
 
 .story--meta {
-    font-size: .9em;
+    font-size: $size-small;
     font-style: italic;
 }
 .story--meta:before {
@@ -56,4 +56,31 @@
 }
 .story--link + .story--link {
     margin-left: .25em;
+}
+
+@media print {
+    .story--headline {
+        font-size: $size-print-huge;
+    }
+
+    .story--heading {
+        font-size: $size-print-large;
+    }
+
+    .story--meta {
+        font-size: $size-print-small;
+    }
+
+    .story--link {
+        display: block;
+    }
+    .story--link [href^="http"]:after {
+        content: " at " attr(href);
+    }
+    .story--link [href^="/"]:after {
+        content: " at http://miles.ink" attr(href);
+    }
+    .story--link + .story--link {
+        margin-left: 0;
+    }
 }

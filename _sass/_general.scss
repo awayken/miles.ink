@@ -10,8 +10,9 @@ html {
 
 body {
     background: #fff;
+    color: $color-text;
     font-family: Georgia, serif;
-    font-size: 1em;
+    font-size: $size-base;
 }
 
 a {
@@ -48,17 +49,6 @@ h6 {
     font-weight: normal;
 }
 
-.page {
-    box-sizing: border-box;
-    background: rgba(255, 255, 255, .98);
-    margin: 0;
-    max-width: 75em;
-}
-
-.page > * {
-    padding: 0 .25em;
-}
-
 @media screen and (min-width: 48em) {
     html {
         background: url("/files/bookshelf.jpg") no-repeat center top #c3bfad;
@@ -68,25 +58,26 @@ h6 {
     body {
         background: transparent;
     }
-
-    .page {
-        box-shadow: 0 0 .45em rgba(0, 0, 0, .4);
-        margin: 1em;
-    }
-
-    .page > * {
-        padding-left: .5em;
-        padding-right: .5em;
-    }
 }
 
-@media screen and (min-width: 75em) {
-    .page {
-        margin: 8em auto 1em auto;
+@media print {
+    html {
+        background: transparent;
     }
 
-    .page > * {
-        padding-left: 1em;
-        padding-right: 1em;
+    body {
+        font-size: $size-print-base;
+    }
+
+    a {
+        color: $color-text;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    a[href^="http"]:after {
+        content: " (" attr(href) ")";
+    }
+    a[href^="/"]:after {
+        content: " (http://miles.ink" attr(href) ")";
     }
 }

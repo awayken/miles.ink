@@ -2,12 +2,10 @@
 layout: default
 ---
 <nav class="nav">
-    <a class="nav--link nav--back" href="/news/">
-        Back to News
-    </a>
+    <a class="nav--link nav--back" href="/news/">Back to News</a>
 </nav>
 
-<div class="news">
+<article class="news">
     <header>
         <h1 class="news--heading">{{ page.title }}</h1>
 
@@ -18,9 +16,11 @@ layout: default
         </span>
     </header>
 
-    <article class="news--content">{{ content }}</article>
+    <section class="news--content">
+        {{ content }}
+    </section>
 
-    {% if page.tags %}
+{% if page.tags %}
     <footer>
         <ul class="news--list">
             {% for tag in page.tags %}
@@ -28,5 +28,5 @@ layout: default
             {% endfor %}
         </ul>
     </footer>
-    {% endif %}
-</div>
+{% endif %}
+</article>

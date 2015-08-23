@@ -10,7 +10,7 @@
     margin-top: 1em;
 }
 
-@media screen and (min-width: 48em) {
+@media print, screen and (min-width: 48em) {
     .columns::before,
     .columns::after {
         content: "";

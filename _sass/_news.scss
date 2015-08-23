@@ -75,3 +75,29 @@
 .news--tag + .news--tag {
     margin-left: .25em;
 }
+
+@media print {
+    .news--headline {
+        font-size: $size-print-huge;
+    }
+
+    .news--heading {
+        font-size: $size-print-large;
+    }
+    .news--heading .news--link:after {
+        content: "http://miles.ink" attr(href);
+        display: block;
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: $size-print-base;
+        font-weight: normal;
+    }
+
+    .news--meta,
+    .news--tag {
+        font-size: $size-print-small;
+    }
+
+    .news--excerpt {
+        border-left: 2px solid $color-text;
+    }
+}

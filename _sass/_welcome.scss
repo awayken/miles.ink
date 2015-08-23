@@ -10,3 +10,9 @@
     margin: 0 0 .5em 0;
     padding: 0;
 }
+
+@media print {
+    .welcome--headline {
+        font-size: $size-print-huge;
+    }
+}

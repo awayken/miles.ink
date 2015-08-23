@@ -36,3 +36,23 @@
 .footer--copyright {
     font-size: $size-small;
 }
+
+@media print {
+    .footer {
+        background: transparent;
+        color: $color-text;
+    }
+
+    .footer a {
+        color: $color-text;
+    }
+
+    .footer--follow,
+    .footer--nav {
+        display: none;
+    }
+
+    .footer--copyright {
+        font-size: $size-print-small;
+    }
+}

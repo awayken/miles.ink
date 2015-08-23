@@ -57,3 +57,30 @@
 .story--link + .story--link {
     margin-left: .25em;
 }
+
+@media print {
+    .story--headline {
+        font-size: $size-print-huge;
+    }
+
+    .story--heading {
+        font-size: $size-print-large;
+    }
+
+    .story--meta {
+        font-size: $size-print-small;
+    }
+
+    .story--link {
+        display: block;
+    }
+    .story--link [href^="http"]:after {
+        content: " at " attr(href);
+    }
+    .story--link [href^="/"]:after {
+        content: " at http://miles.ink" attr(href);
+    }
+    .story--link + .story--link {
+        margin-left: 0;
+    }
+}

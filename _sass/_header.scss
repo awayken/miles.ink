@@ -36,3 +36,17 @@
     font-family: "Kurale", Georgia, serif;
     font-weight: normal;
 }
+
+@media print {
+    .header--name {
+        font-size: $size-print-giant;
+    }
+
+    [href^="/"].header--link:after {
+        display: none;
+    }
+
+    .header--description {
+        font-size: $size-print-huge;
+    }
+}

@@ -31,3 +31,9 @@
 .nav--back::before {
     content: "<";
 }
+
+@media print {
+    .nav {
+        display: none;
+    }
+}

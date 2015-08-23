@@ -60,10 +60,24 @@ h6 {
     }
 }
 
+@media print {
+    html {
+        background: transparent;
     }
 
+    body {
+        font-size: $size-print-base;
     }
 
+    a {
+        color: $color-text;
+        font-weight: bold;
+        text-decoration: none;
     }
+    a[href^="http"]:after {
+        content: " (" attr(href) ")";
+    }
+    a[href^="/"]:after {
+        content: " (http://miles.ink" attr(href) ")";
     }
 }

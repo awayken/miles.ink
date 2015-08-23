@@ -45,3 +45,13 @@
     }
 }
 
+@media print {
+    .page {
+        background: transparent;
+        max-width: none;
+    }
+
+    .page--headline {
+        font-size: $size-print-huge;
+    }
+}

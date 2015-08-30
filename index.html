@@ -25,7 +25,7 @@ layout: default
         <h2 class="news--headline">News</h2>
 
         <ol class="news--list">
-            {% for post in site.posts %}
+            {% for post in site.posts limit:5 %}
                 <li class="news--item">
                     <h3 class="news--heading">
                         <a class="news--link" href="{{ post.url }}">{{ post.title }}</a>

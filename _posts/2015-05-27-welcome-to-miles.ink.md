@@ -1,6 +1,7 @@
 ---
-title:  Welcome to Miles.ink
-date:   2015-05-27
+title: Welcome to Miles.ink
+date: 2015-05-27
+tags: meta
 ---
 Welcome to [Miles.ink](http://miles.ink), the writing homepage for [Miles Rausch](http://www.milesrausch.com), a man of many faces and a few talents. But just what is Miles.ink all about?
 

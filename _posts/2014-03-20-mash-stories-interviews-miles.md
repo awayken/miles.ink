@@ -1,12 +1,11 @@
 ---
 title: Mash Stories Interview Miles
-date:   2014-03-20
+date: 2014-03-20
+tags: interview mash-stories
 ---
 Mash Stories interviewed me to go along with the win. They asked about my stories, discovering the competition and writing in general.
 
 <!--more-->
-
-<p>This interview originally appeared on Mash Stories as <a href="http://mashstories.com/interview-miles-rausch/" target="_blank">INTERVIEW WITH OUR FIRST WINNER: MILES RAUSCH</a>.</p>
 
 <p><b>S.E. Sever: How did you hear about Mash Stories?</b></p>
 <p><b>Miles Rausch:&nbsp;</b>Through Twitter. I think Mash Stories started to follow me, I checked out the site, and sent myself a note to read more about the contest.</p>
@@ -40,6 +39,8 @@ Mash Stories interviewed me to go along with the win. They asked about my storie
 
 <p><b>I write because… </b>the stories in my head won’t stop bothering me.</p>
 
-<p><b>My favourite book is … </b><a href="http://en.wikipedia.org/wiki/Jurassic_Park_(novel)" target="_blank">Jurassic Park</a><b> because … </b>I’ve always been a kid who loves dinosaurs. One thing Crichton doesn’t beautifully is to weave stories around hard science. There’s so much inspiration in physics, chemistry, biology and mathematics, and Crichton managed to wrap that inspiration in great storytelling. Jurassic Park is one of his greatest examples of that.</p>
+<p><b>My favorite book is … </b><a href="http://en.wikipedia.org/wiki/Jurassic_Park_(novel)" target="_blank">Jurassic Park</a><b> because … </b>I’ve always been a kid who loves dinosaurs. One thing Crichton doesn’t beautifully is to weave stories around hard science. There’s so much inspiration in physics, chemistry, biology and mathematics, and Crichton managed to wrap that inspiration in great storytelling. Jurassic Park is one of his greatest examples of that.</p>
 
 <p><b>The best piece of advice I’ve ever been given … </b>is “Show, don’t tell.” It was meant as writing advice, but it applies well to life in general.</p>
+
+<em>This interview first appeared on <a title="INTERVIEW WITH OUR FIRST WINNER: MILES RAUSCH" href="http://mashstories.com/wax-wane-writing/" target="_blank">the Mash Stories blog</a>.</em>

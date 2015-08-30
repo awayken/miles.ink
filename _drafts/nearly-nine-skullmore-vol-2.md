@@ -1,5 +1,5 @@
 ---
-title:  Nearly Nine in Skullmore Vol. 2
+title: Nearly Nine in Skullmore Vol. 2
 tags: nearly-nine print publish skullmore
 ---
 "Nearly Nine" will be published in Volume 2 of _Skullmore_, an art and literary magazine published in Sioux Falls, SD.

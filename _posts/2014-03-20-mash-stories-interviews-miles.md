@@ -2,6 +2,10 @@
 title: Mash Stories Interview Miles
 date:   2014-03-20
 ---
+Mash Stories interviewed me to go along with the win. They asked about my stories, discovering the competition and writing in general.
+
+<!--more-->
+
 <p>This interview originally appeared on Mash Stories as <a href="http://mashstories.com/interview-miles-rausch/" target="_blank">INTERVIEW WITH OUR FIRST WINNER: MILES RAUSCH</a>.</p>
 
 <p><b>S.E. Sever: How did you hear about Mash Stories?</b></p>

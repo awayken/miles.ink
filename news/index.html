@@ -16,6 +16,8 @@ nav_order: 20
                 <span class="news--meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
                 <div class="news--excerpt">{{ post.excerpt }}</div>
+
+                {% include schema_newsarticle.html article=post %}
             </li>
         {% endfor %}
     </ol>

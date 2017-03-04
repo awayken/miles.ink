@@ -3,20 +3,22 @@
         "id": "nearly_nine",
         "title": "Nearly Nine",
         "publish_date": "2014-01-24",
-        "summary": "This flash fiction piece (clocking in at 487 words) won the first ever <a href=\"http://mashstories.com/\" target=\"_blank\">Mash Stories competition</a> in the first quarter of 2014. It was also recorded as <a href=\"https://soundcloud.com/mashstories/nearly-nine-miles-rausch\" target=\"_blank\">an audio piece</a> by the Mash Stories podcast team.",
+        "summary": "This flash fiction piece (clocking in at 487 words) won the first ever <a href=\"http://mashstories.com/\" target=\"_blank\">Mash Stories competition</a> in the first quarter of 2014. It was also recorded as an audio piece by the Mash Stories podcast team.",
         "links": {
             "foreign": "http://mashstories.com/previouslypublished/nearly-nine/",
-            "download": "/files/nearly_nine.pdf"
+            "download": "/files/nearly_nine.pdf",
+            "listen": "/files/nearly_nine.mp3"
         }
     },
     {
         "id": "helping_hand",
         "title": "A Helping Hand",
         "publish_date": "2014-07-31",
-        "summary": "This 488-word flash fiction piece was shortlisted for the third quarter of the <a href=\"http://mashstories.com/\" target=\"_blank\">Mash Stories competition</a> in 2014. It was also recorded as <a href=\"https://soundcloud.com/mashstories/a-helping-hand-miles-rausch\" target=\"_blank\">an audio piece</a> by the Mash Stories podcast team. It did not win that quarter, and I am totally okay with that.",
+        "summary": "This 488-word flash fiction piece was shortlisted for the third quarter of the <a href=\"http://mashstories.com/\" target=\"_blank\">Mash Stories competition</a> in 2014. It was also recorded as an audio piece by the Mash Stories podcast team. It did not win that quarter, and I am totally okay with that.",
         "links": {
             "foreign": "http://mashstories.com/previouslypublished/helping-hand/",
-            "download": "/files/helping_hand.pdf"
+            "download": "/files/helping_hand.pdf",
+            "listen": "/files/helping_hand.mp3"
         }
     }
 ]

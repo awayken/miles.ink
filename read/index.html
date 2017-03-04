@@ -27,6 +27,11 @@ nav_order: 10
                         <a href="{{ story.links.foreign }}" target="_blank">Read</a>
                     </li>
                 {% endif %}
+                {% if story.links.listen %}
+                    <li class="story--link">
+                        <a href="{{ story.links.listen }}">Listen</a>
+                    </li>
+                {% endif %}
                 {% if story.links.download %}
                     <li class="story--link">
                         <a href="{{ story.links.download }}">Download</a>

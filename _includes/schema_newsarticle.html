@@ -1,0 +1,24 @@
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "NewsArticle",
+        "url": "{{ include.article.url }}",
+        "mainEntityOfPage": {{ include.article.content | jsonify }},
+        "name": "{{ include.article.title }}",
+        "headline": "{{ include.article.title }}",
+        "image": "/files/logo.jpg",
+        "description": {{ include.article.excerpt | jsonify }},
+        "author": {
+            "@type": "Person",
+            "name": "{% if include.article.author %}{{ include.article.author }}{% else %}{{ site.author }}{% endif %}"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "{{ site.title }}",
+            "logo": "/files/logo.jpg"
+        },
+        "datePublished": "{{ include.article.date | date: "%b %-d, %Y" }}",
+        "dateModified": "{{ include.article.date | date: "%b %-d, %Y" }}",
+        "keywords": "{{ include.article.tags | array_to_sentence_string }}"
+    }
+</script>

@@ -30,27 +30,5 @@ layout: default
     </footer>
 {% endif %}
 
-    <script type="application/ld+json">
-        {
-            "@context": "http://schema.org",
-            "@type": "NewsArticle",
-            "url": "{{ page.url }}",
-            "mainEntityOfPage": {{ content | jsonify }},
-            "name": "{{ page.title }}",
-            "headline": "{{ page.title }}",
-            "image": "/files/logo.jpg",
-            "author": {
-                "@type": "Person",
-                "name": "{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}"
-            },
-            "publisher": {
-                "@type": "Organization",
-                "name": "{{ site.title }}",
-                "logo": "/files/logo.jpg"
-            },
-            "datePublished": "{{ page.date | date: "%b %-d, %Y" }}",
-            "dateModified": "{{ page.date | date: "%b %-d, %Y" }}",
-            "keywords": "{{ page.tags | array_to_sentence_string }}"
-        }
-    </script>
+    {% include schema_newsarticle.html article=page %}
 </article>

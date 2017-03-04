@@ -4,21 +4,39 @@
         "title": "Nearly Nine",
         "publish_date": "2014-01-24",
         "summary": "This flash fiction piece (clocking in at 487 words) won the first ever <a href=\"http://mashstories.com/\" target=\"_blank\">Mash Stories competition</a> in the first quarter of 2014. It was also recorded as an audio piece by the Mash Stories podcast team.",
-        "links": {
-            "foreign": "http://mashstories.com/previouslypublished/nearly-nine/",
-            "download": "/files/nearly_nine.pdf",
-            "listen": "/files/nearly_nine.mp3"
-        }
+        "links": [
+            {
+                "label": "Read",
+                "link": "http://mashstories.com/previouslypublished/nearly-nine/"
+            },
+            {
+                "label": "Listen",
+                "link": "/files/nearly_nine.mp3"
+            },
+            {
+                "label": "Download",
+                "link": "/files/nearly_nine.pdf"
+            }
+        ]
     },
     {
         "id": "helping_hand",
         "title": "A Helping Hand",
         "publish_date": "2014-07-31",
         "summary": "This 488-word flash fiction piece was shortlisted for the third quarter of the <a href=\"http://mashstories.com/\" target=\"_blank\">Mash Stories competition</a> in 2014. It was also recorded as an audio piece by the Mash Stories podcast team. It did not win that quarter, and I am totally okay with that.",
-        "links": {
-            "foreign": "http://mashstories.com/previouslypublished/helping-hand/",
-            "download": "/files/helping_hand.pdf",
-            "listen": "/files/helping_hand.mp3"
-        }
+        "links": [
+            {
+                "label": "Read",
+                "link": "http://mashstories.com/previouslypublished/helping-hand/"
+            },
+            {
+                "label": "Listen",
+                "link": "/files/helping_hand.mp3"
+            },
+            {
+                "label": "Download",
+                "link": "/files/helping_hand.pdf"
+            }
+        ]
     }
 ]

@@ -1,0 +1,63 @@
+/**
+*** Table
+**/
+
+@import "_variables";
+
+$table--stripe: linear-gradient(0, rgba(0, 0, 0, 0.07), rgba(0, 0, 0, 0.07));
+
+.table {
+    border: 2px solid $color-accent;
+    display: block;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.table--cell {
+    box-sizing: border-box;
+    flex-grow: 1;
+    overflow: hidden;
+    padding: .5em .75em;
+}
+
+.is-striped {
+    background-image: $table--stripe;
+}
+
+.table--heading {
+    margin: 0;
+}
+
+@media screen and (min-width: 24em) {
+    .table {
+        border-bottom-width: 1px;
+        border-top-width: 1px;
+        display: flex;
+    }
+
+    .table--cell {
+        border-bottom: 1px solid $color-accent;
+        border-top: 1px solid $color-accent;
+        padding: 0.8em 1.2em;
+    }
+
+    .table--2cols > .table--cell  {
+        width: 50%;
+    }
+
+    .table--3cols > .table--cell  {
+        width: 33.33%;
+    }
+
+    .table--4cols > .table--cell  {
+        width: 25%;
+    }
+
+    .table--5cols > .table--cell  {
+        width: 20%;
+    }
+
+    .table--6cols > .table--cell  {
+        width: 16.6%;
+    }
+}

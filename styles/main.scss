@@ -3,7 +3,7 @@
 ---
 @charset "utf-8";
 
-// Import partials from `sass_dir` (defaults to `_sass`)
+// Generalized styles
 @import "_normalize";
 @import "_general";
 @import "_utilities";
@@ -18,4 +18,5 @@
 @import "_page";
 @import "_news";
 @import "_story";
+@import "_table";
 @import "_footer";

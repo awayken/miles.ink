@@ -1,0 +1,40 @@
+/**
+*** Forms
+**/
+
+@import "_variables";
+
+form {
+    background: #f0f0f0;
+    border: 1px solid $color-accent;
+    border-radius: .25em;
+    margin: .25em;
+    padding: .5em;
+}
+
+input[type="email"],
+input[type="text"] {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+}
+
+label {
+    box-sizing: border-box;
+    padding: .25em .5em .25em 0;
+}
+
+input[type="submit"],
+button {
+    -webkit-appearance: none;
+    background: $color-accent;
+    border: none;
+    box-sizing: border-box;
+    color: #fff;
+    display: inline-block;
+    padding: .25em .35em;
+}
+
+.indicates-required {
+    color: red;
+}

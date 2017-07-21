@@ -28,20 +28,5 @@
 
         ga('create', 'UA-96981-12', 'auto');
         ga('send', 'pageview');
-
-        // Web Fonts
-        // https://www.google.com/fonts#UsePlace:use/Collection:Vollkorn|Kurale
-        WebFontConfig = {
-            google: { families: [ 'Vollkorn::latin', 'Kurale::latin' ] }
-        };
-
-        (function() {
-            var wf = document.createElement('script');
-            wf.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-            wf.type = 'text/javascript';
-            wf.async = 'true';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(wf, s);
-        })();
     </script>
 </head>

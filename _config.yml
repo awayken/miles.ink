@@ -1,5 +1,5 @@
 # Global Configuration
-base_url: ""
+baseurl: ""
 excerpt_separator: "<!--more-->"
 encoding: "utf-8"
 exclude: ["_site_content.scriv", "Gemfile", "Gemfile.lock", "README.md"]
@@ -45,7 +45,7 @@ sass:
 # Site settings
 title: Miles.ink
 author: Miles Rausch
-url: "http://miles.ink"
+url: "https://miles.ink"
 email: miles@milesrausch.com
 description: >
   A ways to go before it dries.

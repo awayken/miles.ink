@@ -3,7 +3,7 @@ title: Nearly Nine on the Mash Stories Podcast
 date: 2014-04-07
 tags: nearly-nine digital audio mash-stories
 ---
-Too lazy to read? Do your ears work? Then head on over to <a href="https://soundcloud.com/mashstories" target="_blank">the MashStories Podcast</a> and <a title="Nearly Nine - Miles Rausch by mashstories" href="https://soundcloud.com/mashstories/nearly-nine-miles-rausch" target="_blank">give Nearly Nine a listen</a>. The narrator is top notch, even if he slightly mispronounced my last name.
+Too lazy to read? Do your ears work? Then head on over to <a href="https://soundcloud.com/mashstories" target="_blank" rel="noopener">the MashStories Podcast</a> and <a title="Nearly Nine - Miles Rausch by mashstories" href="https://soundcloud.com/mashstories/nearly-nine-miles-rausch" target="_blank" rel="noopener">give Nearly Nine a listen</a>. The narrator is top notch, even if he slightly mispronounced my last name.
 
 <!--more-->
 

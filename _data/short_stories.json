@@ -42,5 +42,19 @@
                 "link": "/files/helping_hand.pdf"
             }
         ]
+    },
+    {
+        "id": "space_cowboy",
+        "title": "Space Cowboy",
+        "publish_date": "2017-07-06",
+        "publisher": "Speculative66",
+        "publisher_logo": "https://pbs.twimg.com/profile_images/760247307619082240/uOUn2U7a_400x400.jpg",
+        "summary": "This 66-word story was published in Issue 10 of <a href=\"http://speculative66.weebly.com/\" target=\"_blank\">Speculative66</a>, a digital literary magazine of speculative flash fiction.",
+        "links": [
+            {
+                "label": "Read",
+                "link": "https://twitter.com/Speculative_66/status/883018397495173120"
+            }
+        ]
     }
 ]

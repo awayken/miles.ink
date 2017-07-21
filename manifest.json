@@ -6,12 +6,12 @@ layout: null
     "short_name": "Miles.ink",
     "icons": [
         {
-            "src": "{{ site.github.url }}/android-chrome-192x192.png",
+            "src": "{{ site.baseurl }}/android-chrome-192x192.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "{{ site.github.url }}/android-chrome-512x512.png",
+            "src": "{{ site.baseurl }}/android-chrome-512x512.png",
             "sizes": "512x512",
             "type": "image/png"
         }
@@ -19,5 +19,5 @@ layout: null
     "theme_color": "#660066",
     "background_color": "#660066",
     "display": "standalone",
-    "start_url": "{{ site.github.url }}/?utm_source=a2h"
+    "start_url": "{{ site.baseurl }}/?utm_source=a2h"
 }

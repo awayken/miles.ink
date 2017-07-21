@@ -19,5 +19,5 @@ layout: null
     "theme_color": "#660066",
     "background_color": "#660066",
     "display": "standalone",
-    "start_url": "{{ site.baseurl }}/?utm_source=a2h"
+    "start_url": "{{ site.baseurl }}/"
 }

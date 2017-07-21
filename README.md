@@ -31,6 +31,14 @@ To serve the site:
 
     bundle exec jekyll serve
 
+## Updating the Service Worker
+
+Miles.ink is a simple [Progressive Web App](https://developers.google.com/web/progressive-web-apps/). The `sw.js` file was built using [Workbox](https://workboxjs.org/), and it's a good idea to update it when changes are made to the site. I'd like to work this into the deploy step at some point. The generator will use a config file so builds will be consistent. You must have Workbox installed.
+
+To update the service worker:
+
+    workbox-cli generate:sw
+
 ## Deploying Miles.ink
 
 Miles.ink uses Glynn to deploy it. For obvious reasons, the `_glynn.yml` file is not committed with the project.

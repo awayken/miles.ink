@@ -30,4 +30,4 @@ who whisper your name.</blockquote>
 
 Every quarter, the latest Mash Stories contest brings another opportunity to write your best story. A lot of talented people are noticing Mash, and it's becoming more than simply a competition. It's growing into a community, and a community affords a writer many more opportunities. Like this: the opportunity to write an inspirational blog post for Mashers, to boast one more time, and to hide a secret message in the paragraphs above. Just for instance.
 
-<em>This post first appeared on <a title="THE WAX AND WANE OF WRITING " href="http://mashstories.com/wax-wane-writing/" target="_blank">the Mash Stories blog</a>.</em>
+<em>This post first appeared on <a title="THE WAX AND WANE OF WRITING " href="http://mashstories.com/wax-wane-writing/" target="_blank" rel="noopener">the Mash Stories blog</a>.</em>

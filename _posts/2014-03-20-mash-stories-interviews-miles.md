@@ -29,7 +29,7 @@ Mash Stories interviewed me to go along with the win. They asked about my storie
 <p><strong>Miles:</strong> I’ve been fortunate in my life that I’ve never had anyone tell me I can’t write, and I’ve had enough tell me I can. It puts me in a sweet spot of feeling encouraged without having unreasonable expectations. It’s prepared me for weathering the storms; I know I’m a good enough captain to hit dry land.</p>
 
 <p><b>S.E.: What’s next for you? Do you have any other projects coming up so Mashers can see what else you’re up to?</b></p>
-<p><strong>Miles:</strong> I don’t have any other projects I’m ready to talk about. I try to write regularly on my website, <a href="http://milesrausch.com" target="_blank">milesrausch.com</a>, and I spend a fair amount of time on twitter <a href="http://twitter.com/awayken" target="_blank">@awayken</a>. And, of course, I’ll be submitting to MashStories, trying to get lightning to strike twice.</p>
+<p><strong>Miles:</strong> I don’t have any other projects I’m ready to talk about. I try to write regularly on my website, <a href="http://milesrausch.com" target="_blank" rel="noopener">milesrausch.com</a>, and I spend a fair amount of time on twitter <a href="http://twitter.com/awayken" target="_blank" rel="noopener">@awayken</a>. And, of course, I’ll be submitting to MashStories, trying to get lightning to strike twice.</p>
 
 <p><b style="line-height: 1.5em;">Quick Fire Round with Miles Rausch</b></p>
 
@@ -39,8 +39,8 @@ Mash Stories interviewed me to go along with the win. They asked about my storie
 
 <p><b>I write because… </b>the stories in my head won’t stop bothering me.</p>
 
-<p><b>My favorite book is … </b><a href="http://en.wikipedia.org/wiki/Jurassic_Park_(novel)" target="_blank">Jurassic Park</a><b> because … </b>I’ve always been a kid who loves dinosaurs. One thing Crichton doesn’t beautifully is to weave stories around hard science. There’s so much inspiration in physics, chemistry, biology and mathematics, and Crichton managed to wrap that inspiration in great storytelling. Jurassic Park is one of his greatest examples of that.</p>
+<p><b>My favorite book is … </b><a href="http://en.wikipedia.org/wiki/Jurassic_Park_(novel)" target="_blank" rel="noopener">Jurassic Park</a><b> because … </b>I’ve always been a kid who loves dinosaurs. One thing Crichton doesn’t beautifully is to weave stories around hard science. There’s so much inspiration in physics, chemistry, biology and mathematics, and Crichton managed to wrap that inspiration in great storytelling. Jurassic Park is one of his greatest examples of that.</p>
 
 <p><b>The best piece of advice I’ve ever been given … </b>is “Show, don’t tell.” It was meant as writing advice, but it applies well to life in general.</p>
 
-<em>This interview first appeared on <a title="INTERVIEW WITH OUR FIRST WINNER: MILES RAUSCH" href="http://mashstories.com/wax-wane-writing/" target="_blank">the Mash Stories blog</a>.</em>
+<em>This interview first appeared on <a title="INTERVIEW WITH OUR FIRST WINNER: MILES RAUSCH" href="http://mashstories.com/wax-wane-writing/" target="_blank" rel="noopener">the Mash Stories blog</a>.</em>

@@ -10,26 +10,21 @@
 }
 
 .nav--list {
+    display: flex;
+    justify-content: space-between;
     list-style: none;
     margin: 0;
     overflow: auto;
     padding: .5em 0;
-    text-align: center;
-    white-space: nowrap;
 }
 
-.nav--item,
-.nav--link {
-    display: inline-block;
-    vertical-align: top;
-}
-
-.nav--item + .nav--item {
-    padding-left: 1em;
+.nav--item {
+    flex: none;
+    padding: 0 .25em;
 }
 
 .nav--back::before {
-    content: "<";
+    content: "« ";
 }
 
 @media print {

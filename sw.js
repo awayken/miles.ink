@@ -20,7 +20,7 @@ importScripts('workbox-sw.prod.v2.1.0.js');
 const fileManifest = [
   {
     "url": "about/index.html",
-    "revision": "36f62b2756b6ca0f0e2c02899a9e4f68"
+    "revision": "fef97bcc9d6de9e3b3b8a3e5a802d59c"
   },
   {
     "url": "android-chrome-192x192.png",
@@ -40,7 +40,7 @@ const fileManifest = [
   },
   {
     "url": "contact/index.html",
-    "revision": "9e174129c68d2f4d81dc234d204ff1c8"
+    "revision": "64b15f118e8632f8264e8f8f9def3001"
   },
   {
     "url": "favicon-16x16.png",
@@ -68,11 +68,11 @@ const fileManifest = [
   },
   {
     "url": "hire/index.html",
-    "revision": "054b118dc6edd6a85512c30f47244bab"
+    "revision": "ae943c5cae2c2a57aecf4ceb82102e2a"
   },
   {
     "url": "index.html",
-    "revision": "0ed1532da7a19c10be77954c1265b6ae"
+    "revision": "e778c9c011e62510f8d05adf5763c8f5"
   },
   {
     "url": "manifest.json",
@@ -84,55 +84,55 @@ const fileManifest = [
   },
   {
     "url": "news/2014/01/27/nearly-nine-on-mash-stories.html",
-    "revision": "bd6b1785790c377b8eada94ada83c489"
+    "revision": "21c9c030eebd90e5d33dc9242abd465b"
   },
   {
     "url": "news/2014/02/19/nearly-nine-on-mash-stories-won.html",
-    "revision": "90b5db29d32105a2bc8f2079ab4495d6"
+    "revision": "9c1b4556fde698d6b117263d029c83e8"
   },
   {
     "url": "news/2014/03/20/mash-stories-interviews-miles.html",
-    "revision": "25fc1052e8ff0bb7e949b082e3dbca8c"
+    "revision": "c83126d8090af570569da907b2d2eba4"
   },
   {
     "url": "news/2014/04/07/nearly-nine-on-the-mash-stories-podcast.html",
-    "revision": "1dde661e2dbed17f9b12a5fe44d9d8a4"
+    "revision": "12f38afc8f95f44d60b87f63f4ee6e8e"
   },
   {
     "url": "news/2014/04/15/buy-wisdom-for-dad.html",
-    "revision": "54b1cea2b5fcc237b8d1226d9b1a11ac"
+    "revision": "6c496d12aacac0006be0e5898209ed14"
   },
   {
     "url": "news/2014/09/15/the-wax-and-wane-of-writing.html",
-    "revision": "30405693b04b2a704e98034997aad82d"
+    "revision": "bac12e76638013922d69ad14fb9a3feb"
   },
   {
     "url": "news/2015/05/27/welcome-to-miles.ink.html",
-    "revision": "45daa5278d281fe84f5172b21936d26a"
+    "revision": "dd8eb3378a282912d5e37dd1af7bfd39"
   },
   {
     "url": "news/2015/09/06/nearly-nine-skullmore-vol-2.html",
-    "revision": "e17379b682a44f72ae02110644aba857"
+    "revision": "40504061b9d7538f907cb075f2df4837"
   },
   {
     "url": "news/2017/07/06/speculative66-issue-10.html",
-    "revision": "7be48a6022447e60995fb9b898326d01"
+    "revision": "6f92f212a62b302b4f41fe43ebd11976"
   },
   {
     "url": "news/2017/10/11/miles-ink-is-secure.html",
-    "revision": "e06606a886a77ef1635270c2a77a7ba7"
+    "revision": "13f5421da8cafa4b06d316103cfe3d06"
   },
   {
     "url": "news/feed.xml",
-    "revision": "6b38851a63fa63c60e7a8dd167b66ff3"
+    "revision": "053d7c448112c6fca6f9477fb134852a"
   },
   {
     "url": "news/index.html",
-    "revision": "4d1d1c6cacae8f8e15984cdc9a8f4f46"
+    "revision": "d39d9011fd77cd07a31439b25f750a42"
   },
   {
     "url": "read/index.html",
-    "revision": "185b529649c5c76ea37835338dd773e4"
+    "revision": "7b3d19291128fd1fc53b5924a9a53fbc"
   },
   {
     "url": "safari-pinned-tab.svg",
@@ -140,7 +140,7 @@ const fileManifest = [
   },
   {
     "url": "scripts/app.js",
-    "revision": "8cdf584aad487c4a39c51e3f5f1e0dcb"
+    "revision": "7a0d679461eea277a2fb0993d686ba33"
   },
   {
     "url": "styles/main.css",
@@ -148,7 +148,7 @@ const fileManifest = [
   },
   {
     "url": "support/index.html",
-    "revision": "37571865f67175eba69b42a2843d367f"
+    "revision": "76da711aafe0fe5fa5585d612b1581d4"
   }
 ];
 

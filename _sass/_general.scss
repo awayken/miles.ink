@@ -79,6 +79,6 @@ h6 {
         content: " (" attr(href) ")";
     }
     a[href^="/"]:after {
-        content: " (http://miles.ink" attr(href) ")";
+        content: " (https://miles.ink" attr(href) ")";
     }
 }

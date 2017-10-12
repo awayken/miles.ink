@@ -78,7 +78,7 @@
         content: " at " attr(href);
     }
     .story--link [href^="/"]:after {
-        content: " at http://miles.ink" attr(href);
+        content: " at https://miles.ink" attr(href);
     }
     .story--link + .story--link {
         margin-left: 0;

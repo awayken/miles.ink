@@ -85,7 +85,7 @@
         font-size: $size-print-large;
     }
     .news--heading .news--link:after {
-        content: "http://miles.ink" attr(href);
+        content: "https://miles.ink" attr(href);
         display: block;
         font-family: Georgia, "Times New Roman", serif;
         font-size: $size-print-base;

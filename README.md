@@ -4,7 +4,7 @@
 
 [![Build Status](https://travis-ci.org/awayken/miles.ink.svg?branch=master)](https://travis-ci.org/awayken/miles.ink)
 
-[Miles.ink](http://miles.ink) is the homepage to learn more about Miles Rausch as a writer. It's powered by [Jekyll](http://jekyllrb.com/) and written by me, Miles Rausch.
+[Miles.ink](https://miles.ink) is the homepage to learn more about Miles Rausch as a writer. It's powered by [Jekyll](http://jekyllrb.com/) and written by me, Miles Rausch.
 
 **WHAT??** Yes, the writer, Miles Rausch, is also [the developer, Miles Rausch](https://github.com/awayken/).
 

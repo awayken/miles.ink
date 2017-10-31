@@ -38,16 +38,24 @@
         "summary": "This 488-word flash fiction piece was shortlisted for the third quarter of the <a href=\"http://mashstories.com/\" target=\"_blank\">Mash Stories competition</a> in 2014. It was also recorded as an audio piece by the Mash Stories podcast team. It did not win that quarter, and I am totally okay with that.",
         "links": [
             {
-                "label": "Read",
-                "link": "http://mashstories.com/previouslypublished/helping-hand/"
+                "label": "Read (txt)",
+                "link": "/files/helping_hand.txt"
             },
             {
-                "label": "Listen",
-                "link": "/files/helping_hand.mp3"
+                "label": "Read (epub)",
+                "link": "/files/helping_hand.epub"
             },
             {
-                "label": "Download",
+                "label": "Read (mobi)",
+                "link": "/files/helping_hand.mobi"
+            },
+            {
+                "label": "Read (pdf)",
                 "link": "/files/helping_hand.pdf"
+            },
+            {
+                "label": "Listen (mp3)",
+                "link": "/files/helping_hand.mp3"
             }
         ]
     },

@@ -8,16 +8,24 @@
         "summary": "This flash fiction piece (clocking in at 487 words) won the first ever <a href=\"http://mashstories.com/\" target=\"_blank\">Mash Stories competition</a> in the first quarter of 2014. It was also recorded as an audio piece by the Mash Stories podcast team.",
         "links": [
             {
-                "label": "Read",
-                "link": "http://mashstories.com/previouslypublished/nearly-nine/"
+                "label": "Read (txt)",
+                "link": "/files/nearly_nine.txt"
             },
             {
-                "label": "Listen",
-                "link": "/files/nearly_nine.mp3"
+                "label": "Read (epub)",
+                "link": "/files/nearly_nine.epub"
             },
             {
-                "label": "Download",
+                "label": "Read (mobi)",
+                "link": "/files/nearly_nine.mobi"
+            },
+            {
+                "label": "Read (pdf)",
                 "link": "/files/nearly_nine.pdf"
+            },
+            {
+                "label": "Listen (mp3)",
+                "link": "/files/nearly_nine.mp3"
             }
         ]
     },
@@ -30,16 +38,24 @@
         "summary": "This 488-word flash fiction piece was shortlisted for the third quarter of the <a href=\"http://mashstories.com/\" target=\"_blank\">Mash Stories competition</a> in 2014. It was also recorded as an audio piece by the Mash Stories podcast team. It did not win that quarter, and I am totally okay with that.",
         "links": [
             {
-                "label": "Read",
-                "link": "http://mashstories.com/previouslypublished/helping-hand/"
+                "label": "Read (txt)",
+                "link": "/files/helping_hand.txt"
             },
             {
-                "label": "Listen",
-                "link": "/files/helping_hand.mp3"
+                "label": "Read (epub)",
+                "link": "/files/helping_hand.epub"
             },
             {
-                "label": "Download",
+                "label": "Read (mobi)",
+                "link": "/files/helping_hand.mobi"
+            },
+            {
+                "label": "Read (pdf)",
                 "link": "/files/helping_hand.pdf"
+            },
+            {
+                "label": "Listen (mp3)",
+                "link": "/files/helping_hand.mp3"
             }
         ]
     },
@@ -52,8 +68,20 @@
         "summary": "This 66-word story was published in Issue 10 of <a href=\"http://speculative66.weebly.com/\" target=\"_blank\">Speculative66</a>, a digital literary magazine of speculative flash fiction.",
         "links": [
             {
-                "label": "Read",
-                "link": "https://twitter.com/Speculative_66/status/883018397495173120"
+                "label": "Read (txt)",
+                "link": "/files/space_cowboy.txt"
+            },
+            {
+                "label": "Read (epub)",
+                "link": "/files/space_cowboy.epub"
+            },
+            {
+                "label": "Read (mobi)",
+                "link": "/files/space_cowboy.mobi"
+            },
+            {
+                "label": "Read (pdf)",
+                "link": "/files/space_cowboy.pdf"
             }
         ]
     }

@@ -68,8 +68,20 @@
         "summary": "This 66-word story was published in Issue 10 of <a href=\"http://speculative66.weebly.com/\" target=\"_blank\">Speculative66</a>, a digital literary magazine of speculative flash fiction.",
         "links": [
             {
-                "label": "Read",
-                "link": "https://twitter.com/Speculative_66/status/883018397495173120"
+                "label": "Read (txt)",
+                "link": "/files/space_cowboy.txt"
+            },
+            {
+                "label": "Read (epub)",
+                "link": "/files/space_cowboy.epub"
+            },
+            {
+                "label": "Read (mobi)",
+                "link": "/files/space_cowboy.mobi"
+            },
+            {
+                "label": "Read (pdf)",
+                "link": "/files/space_cowboy.pdf"
             }
         ]
     }

@@ -8,16 +8,24 @@
         "summary": "This flash fiction piece (clocking in at 487 words) won the first ever <a href=\"http://mashstories.com/\" target=\"_blank\">Mash Stories competition</a> in the first quarter of 2014. It was also recorded as an audio piece by the Mash Stories podcast team.",
         "links": [
             {
-                "label": "Read",
-                "link": "http://mashstories.com/previouslypublished/nearly-nine/"
+                "label": "Read (txt)",
+                "link": "/files/nearly_nine.txt"
             },
             {
-                "label": "Listen",
-                "link": "/files/nearly_nine.mp3"
+                "label": "Read (epub)",
+                "link": "/files/nearly_nine.epub"
             },
             {
-                "label": "Download",
+                "label": "Read (mobi)",
+                "link": "/files/nearly_nine.mobi"
+            },
+            {
+                "label": "Read (pdf)",
                 "link": "/files/nearly_nine.pdf"
+            },
+            {
+                "label": "Listen (mp3)",
+                "link": "/files/nearly_nine.mp3"
             }
         ]
     },

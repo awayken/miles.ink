@@ -20,7 +20,7 @@ importScripts('workbox-sw.prod.v2.1.0.js');
 const fileManifest = [
   {
     "url": "about/index.html",
-    "revision": "fef97bcc9d6de9e3b3b8a3e5a802d59c"
+    "revision": "36f62b2756b6ca0f0e2c02899a9e4f68"
   },
   {
     "url": "android-chrome-192x192.png",
@@ -40,7 +40,7 @@ const fileManifest = [
   },
   {
     "url": "contact/index.html",
-    "revision": "64b15f118e8632f8264e8f8f9def3001"
+    "revision": "9e174129c68d2f4d81dc234d204ff1c8"
   },
   {
     "url": "favicon-16x16.png",
@@ -55,24 +55,64 @@ const fileManifest = [
     "revision": "ecbb8c16e2936e2c3fa0d5ed1db2bdab"
   },
   {
+    "url": "files/helping_hand.epub",
+    "revision": "dd1f375470593fabd92b15ff46b47197"
+  },
+  {
+    "url": "files/helping_hand.mobi",
+    "revision": "f0a220b904c6531294af12033c69e1e5"
+  },
+  {
     "url": "files/helping_hand.pdf",
-    "revision": "873e796740b896f7bafc075bbd04b5cd"
+    "revision": "a769e6886f592c736bdd8c21dc315aa8"
+  },
+  {
+    "url": "files/helping_hand.txt",
+    "revision": "091ba178e9a1ccd5fa868a8ea569c7d3"
   },
   {
     "url": "files/logo.jpg",
     "revision": "b2c81423db955802615428679720276e"
   },
   {
+    "url": "files/nearly_nine.epub",
+    "revision": "878bec5b61e34ae0b8b3103a30c8efab"
+  },
+  {
+    "url": "files/nearly_nine.mobi",
+    "revision": "8576c09299428ff603e9e0166895d6be"
+  },
+  {
     "url": "files/nearly_nine.pdf",
-    "revision": "6ac6a55c50e055feb57e2d94daf87188"
+    "revision": "f6e6d9d0c8366944d82b550feda2b03e"
+  },
+  {
+    "url": "files/nearly_nine.txt",
+    "revision": "f615a048617c293515884da63228d5d4"
+  },
+  {
+    "url": "files/space_cowboy.epub",
+    "revision": "f00188219f03dbb0bf3d26c1421defe7"
+  },
+  {
+    "url": "files/space_cowboy.mobi",
+    "revision": "6bbd48c73daa8e399e10219bfdd2b217"
+  },
+  {
+    "url": "files/space_cowboy.pdf",
+    "revision": "0d181b8b769e98cac5560a0bc87265fe"
+  },
+  {
+    "url": "files/space_cowboy.txt",
+    "revision": "4714472af4a9a19cb477637902ea12b7"
   },
   {
     "url": "hire/index.html",
-    "revision": "ae943c5cae2c2a57aecf4ceb82102e2a"
+    "revision": "054b118dc6edd6a85512c30f47244bab"
   },
   {
     "url": "index.html",
-    "revision": "e778c9c011e62510f8d05adf5763c8f5"
+    "revision": "0ed1532da7a19c10be77954c1265b6ae"
   },
   {
     "url": "manifest.json",
@@ -84,55 +124,55 @@ const fileManifest = [
   },
   {
     "url": "news/2014/01/27/nearly-nine-on-mash-stories.html",
-    "revision": "21c9c030eebd90e5d33dc9242abd465b"
+    "revision": "bd6b1785790c377b8eada94ada83c489"
   },
   {
     "url": "news/2014/02/19/nearly-nine-on-mash-stories-won.html",
-    "revision": "9c1b4556fde698d6b117263d029c83e8"
+    "revision": "90b5db29d32105a2bc8f2079ab4495d6"
   },
   {
     "url": "news/2014/03/20/mash-stories-interviews-miles.html",
-    "revision": "c83126d8090af570569da907b2d2eba4"
+    "revision": "25fc1052e8ff0bb7e949b082e3dbca8c"
   },
   {
     "url": "news/2014/04/07/nearly-nine-on-the-mash-stories-podcast.html",
-    "revision": "12f38afc8f95f44d60b87f63f4ee6e8e"
+    "revision": "1dde661e2dbed17f9b12a5fe44d9d8a4"
   },
   {
     "url": "news/2014/04/15/buy-wisdom-for-dad.html",
-    "revision": "6c496d12aacac0006be0e5898209ed14"
+    "revision": "54b1cea2b5fcc237b8d1226d9b1a11ac"
   },
   {
     "url": "news/2014/09/15/the-wax-and-wane-of-writing.html",
-    "revision": "bac12e76638013922d69ad14fb9a3feb"
+    "revision": "30405693b04b2a704e98034997aad82d"
   },
   {
     "url": "news/2015/05/27/welcome-to-miles.ink.html",
-    "revision": "dd8eb3378a282912d5e37dd1af7bfd39"
+    "revision": "45daa5278d281fe84f5172b21936d26a"
   },
   {
     "url": "news/2015/09/06/nearly-nine-skullmore-vol-2.html",
-    "revision": "40504061b9d7538f907cb075f2df4837"
+    "revision": "e17379b682a44f72ae02110644aba857"
   },
   {
     "url": "news/2017/07/06/speculative66-issue-10.html",
-    "revision": "6f92f212a62b302b4f41fe43ebd11976"
+    "revision": "7be48a6022447e60995fb9b898326d01"
   },
   {
     "url": "news/2017/10/11/miles-ink-is-secure.html",
-    "revision": "13f5421da8cafa4b06d316103cfe3d06"
+    "revision": "e06606a886a77ef1635270c2a77a7ba7"
   },
   {
     "url": "news/feed.xml",
-    "revision": "053d7c448112c6fca6f9477fb134852a"
+    "revision": "aed439779b39fbb6c159507a75912ccd"
   },
   {
     "url": "news/index.html",
-    "revision": "d39d9011fd77cd07a31439b25f750a42"
+    "revision": "4d1d1c6cacae8f8e15984cdc9a8f4f46"
   },
   {
     "url": "read/index.html",
-    "revision": "7b3d19291128fd1fc53b5924a9a53fbc"
+    "revision": "5b8aad22ed8486b518006acff06f080e"
   },
   {
     "url": "safari-pinned-tab.svg",
@@ -148,7 +188,7 @@ const fileManifest = [
   },
   {
     "url": "support/index.html",
-    "revision": "76da711aafe0fe5fa5585d612b1581d4"
+    "revision": "37571865f67175eba69b42a2843d367f"
   }
 ];
 

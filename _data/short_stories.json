@@ -110,5 +110,31 @@
                 "link": "/files/space_cowboy.pdf"
             }
         ]
+    },
+    {
+        "id": "stone_son",
+        "title": "Stone Son",
+        "publish_date": "2018-04-06",
+        "publisher": "Speculative66",
+        "publisher_logo": "https://pbs.twimg.com/profile_images/760247307619082240/uOUn2U7a_400x400.jpg",
+        "summary": "This 66-word story was published in Issue 18 of <a href=\"http://speculative66.weebly.com/\" target=\"_blank\">Speculative66</a>, a digital literary magazine of speculative flash fiction.",
+        "links": [
+            {
+                "label": "Read (txt)",
+                "link": "/files/stone_son/stone_son.txt"
+            },
+            {
+                "label": "Read (epub)",
+                "link": "/files/stone_son/stone_son.epub"
+            },
+            {
+                "label": "Read (mobi)",
+                "link": "/files/stone_son/stone_son.mobi"
+            },
+            {
+                "label": "Read (pdf)",
+                "link": "/files/stone_son/stone_son.pdf"
+            }
+        ]
     }
 ]

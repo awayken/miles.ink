@@ -35,23 +35,23 @@
         "links": [
             {
                 "label": "Read (txt)",
-                "link": "/files/nearly_nine.txt"
+                "link": "/files/nearly_nine/nearly_nine.txt"
             },
             {
                 "label": "Read (epub)",
-                "link": "/files/nearly_nine.epub"
+                "link": "/files/nearly_nine/nearly_nine.epub"
             },
             {
                 "label": "Read (mobi)",
-                "link": "/files/nearly_nine.mobi"
+                "link": "/files/nearly_nine/nearly_nine.mobi"
             },
             {
                 "label": "Read (pdf)",
-                "link": "/files/nearly_nine.pdf"
+                "link": "/files/nearly_nine/nearly_nine.pdf"
             },
             {
                 "label": "Listen (mp3)",
-                "link": "/files/nearly_nine.mp3"
+                "link": "/files/nearly_nine/nearly_nine.mp3"
             }
         ]
     },
@@ -65,23 +65,23 @@
         "links": [
             {
                 "label": "Read (txt)",
-                "link": "/files/helping_hand.txt"
+                "link": "/files/helping_hand/helping_hand.txt"
             },
             {
                 "label": "Read (epub)",
-                "link": "/files/helping_hand.epub"
+                "link": "/files/helping_hand/helping_hand.epub"
             },
             {
                 "label": "Read (mobi)",
-                "link": "/files/helping_hand.mobi"
+                "link": "/files/helping_hand/helping_hand.mobi"
             },
             {
                 "label": "Read (pdf)",
-                "link": "/files/helping_hand.pdf"
+                "link": "/files/helping_hand/helping_hand.pdf"
             },
             {
                 "label": "Listen (mp3)",
-                "link": "/files/helping_hand.mp3"
+                "link": "/files/helping_hand/helping_hand.mp3"
             }
         ]
     },
@@ -95,19 +95,19 @@
         "links": [
             {
                 "label": "Read (txt)",
-                "link": "/files/space_cowboy.txt"
+                "link": "/files/space_cowboy/space_cowboy.txt"
             },
             {
                 "label": "Read (epub)",
-                "link": "/files/space_cowboy.epub"
+                "link": "/files/space_cowboy/space_cowboy.epub"
             },
             {
                 "label": "Read (mobi)",
-                "link": "/files/space_cowboy.mobi"
+                "link": "/files/space_cowboy/space_cowboy.mobi"
             },
             {
                 "label": "Read (pdf)",
-                "link": "/files/space_cowboy.pdf"
+                "link": "/files/space_cowboy/space_cowboy.pdf"
             }
         ]
     },

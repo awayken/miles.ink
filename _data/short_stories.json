@@ -1,11 +1,37 @@
 [
     {
+        "id": "casios_dream",
+        "title": "Casio's Dream",
+        "publish_date": "2006-05-30",
+        "publisher": "New Tricks",
+        "publisher_logo": "http://www.new-tricks.org/vendors/img/2006Cover.PNG",
+        "summary": "Casio's Dream was my first pubication. This short story, at 2,921 words, is one of my longer published pieces. It first appeared in <a href=\"http://www.new-tricks.org/vendors/pdf/New%20Tricks%202006.pdf\" target=\"_blank\" rel=\"noopener\">the 2006 edition of the DSU literary magazine, New Tricks</a>.",
+        "links": [
+            {
+                "label": "Read (txt)",
+                "link": "/files/casios_dream/casios_dream.txt"
+            },
+            {
+                "label": "Read (epub)",
+                "link": "/files/casios_dream/casios_dream.epub"
+            },
+            {
+                "label": "Read (mobi)",
+                "link": "/files/casios_dream/casios_dream.mobi"
+            },
+            {
+                "label": "Read (pdf)",
+                "link": "/files/casios_dream/casios_dream.pdf"
+            }
+        ]
+    },
+    {
         "id": "nearly_nine",
         "title": "Nearly Nine",
         "publish_date": "2014-01-24",
         "publisher": "Mash Stories",
         "publisher_logo": "http://www.mashstories.com/wp-content/uploads/2016/02/logo-2.png",
-        "summary": "This flash fiction piece (clocking in at 487 words) won the first ever <a href=\"http://mashstories.com/\" target=\"_blank\">Mash Stories competition</a> in the first quarter of 2014. It was also recorded as an audio piece by the Mash Stories podcast team.",
+        "summary": "This flash fiction piece (clocking in at 487 words) won the first ever <a href=\"http://mashstories.com/\" target=\"_blank\" rel=\"noopener\">Mash Stories competition</a> in the first quarter of 2014. It was also recorded as an audio piece by the Mash Stories podcast team.",
         "links": [
             {
                 "label": "Read (txt)",
@@ -35,7 +61,7 @@
         "publish_date": "2014-07-31",
         "publisher": "Mash Stories",
         "publisher_logo": "http://www.mashstories.com/wp-content/uploads/2016/02/logo-2.png",
-        "summary": "This 488-word flash fiction piece was shortlisted for the third quarter of the <a href=\"http://mashstories.com/\" target=\"_blank\">Mash Stories competition</a> in 2014. It was also recorded as an audio piece by the Mash Stories podcast team. It did not win that quarter, and I am totally okay with that.",
+        "summary": "This 488-word flash fiction piece was shortlisted for the third quarter of the <a href=\"http://mashstories.com/\" target=\"_blank\" rel=\"noopener\">Mash Stories competition</a> in 2014. It was also recorded as an audio piece by the Mash Stories podcast team. It did not win that quarter, and I am totally okay with that.",
         "links": [
             {
                 "label": "Read (txt)",
@@ -65,7 +91,7 @@
         "publish_date": "2017-07-06",
         "publisher": "Speculative66",
         "publisher_logo": "https://pbs.twimg.com/profile_images/760247307619082240/uOUn2U7a_400x400.jpg",
-        "summary": "This 66-word story was published in Issue 10 of <a href=\"http://speculative66.weebly.com/\" target=\"_blank\">Speculative66</a>, a digital literary magazine of speculative flash fiction.",
+        "summary": "This 66-word story was published in Issue 10 of <a href=\"http://speculative66.weebly.com/\" target=\"_blank\" rel=\"noopener\">Speculative66</a>, a digital literary magazine of speculative flash fiction.",
         "links": [
             {
                 "label": "Read (txt)",

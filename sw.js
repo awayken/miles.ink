@@ -56,6 +56,22 @@ self.__precacheManifest = [
     "revision": "ecbb8c16e2936e2c3fa0d5ed1db2bdab"
   },
   {
+    "url": "files/casios_dream/casios_dream.epub",
+    "revision": "e77029385bc80df0d8fc19f511702d70"
+  },
+  {
+    "url": "files/casios_dream/casios_dream.mobi",
+    "revision": "921ff549e8d48bfb775d0f9295487a3a"
+  },
+  {
+    "url": "files/casios_dream/casios_dream.pdf",
+    "revision": "e155c4c84512a261fb7ac68e7c06444c"
+  },
+  {
+    "url": "files/casios_dream/casios_dream.txt",
+    "revision": "7d4862a6667a695e093957079e0cf6d2"
+  },
+  {
     "url": "files/helping_hand/helping_hand.epub",
     "revision": "dd1f375470593fabd92b15ff46b47197"
   },
@@ -129,7 +145,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "0ed1532da7a19c10be77954c1265b6ae"
+    "revision": "6af80a63b51790ad90bc3843a4584ea3"
   },
   {
     "url": "manifest.json",
@@ -180,16 +196,20 @@ self.__precacheManifest = [
     "revision": "e06606a886a77ef1635270c2a77a7ba7"
   },
   {
+    "url": "news/2018/04/06/speculative66-issue-18.html",
+    "revision": "f71d5200d210f41709845588de69fb25"
+  },
+  {
     "url": "news/feed.xml",
-    "revision": "814902241201065421af7aa36443f816"
+    "revision": "b8ff1a22b5258ab56f7af367025dc95d"
   },
   {
     "url": "news/index.html",
-    "revision": "4d1d1c6cacae8f8e15984cdc9a8f4f46"
+    "revision": "c4202ba2a6f3e086939aacf921099d1b"
   },
   {
     "url": "read/index.html",
-    "revision": "b3b60716f4def8fbe18c11e95055a1ea"
+    "revision": "03f7f997e06ec2c0833c47ed7243952f"
   },
   {
     "url": "safari-pinned-tab.svg",

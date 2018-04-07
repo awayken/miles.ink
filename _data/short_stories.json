@@ -35,23 +35,23 @@
         "links": [
             {
                 "label": "Read (txt)",
-                "link": "/files/nearly_nine.txt"
+                "link": "/files/nearly_nine/nearly_nine.txt"
             },
             {
                 "label": "Read (epub)",
-                "link": "/files/nearly_nine.epub"
+                "link": "/files/nearly_nine/nearly_nine.epub"
             },
             {
                 "label": "Read (mobi)",
-                "link": "/files/nearly_nine.mobi"
+                "link": "/files/nearly_nine/nearly_nine.mobi"
             },
             {
                 "label": "Read (pdf)",
-                "link": "/files/nearly_nine.pdf"
+                "link": "/files/nearly_nine/nearly_nine.pdf"
             },
             {
                 "label": "Listen (mp3)",
-                "link": "/files/nearly_nine.mp3"
+                "link": "/files/nearly_nine/nearly_nine.mp3"
             }
         ]
     },
@@ -65,23 +65,23 @@
         "links": [
             {
                 "label": "Read (txt)",
-                "link": "/files/helping_hand.txt"
+                "link": "/files/helping_hand/helping_hand.txt"
             },
             {
                 "label": "Read (epub)",
-                "link": "/files/helping_hand.epub"
+                "link": "/files/helping_hand/helping_hand.epub"
             },
             {
                 "label": "Read (mobi)",
-                "link": "/files/helping_hand.mobi"
+                "link": "/files/helping_hand/helping_hand.mobi"
             },
             {
                 "label": "Read (pdf)",
-                "link": "/files/helping_hand.pdf"
+                "link": "/files/helping_hand/helping_hand.pdf"
             },
             {
                 "label": "Listen (mp3)",
-                "link": "/files/helping_hand.mp3"
+                "link": "/files/helping_hand/helping_hand.mp3"
             }
         ]
     },
@@ -95,19 +95,45 @@
         "links": [
             {
                 "label": "Read (txt)",
-                "link": "/files/space_cowboy.txt"
+                "link": "/files/space_cowboy/space_cowboy.txt"
             },
             {
                 "label": "Read (epub)",
-                "link": "/files/space_cowboy.epub"
+                "link": "/files/space_cowboy/space_cowboy.epub"
             },
             {
                 "label": "Read (mobi)",
-                "link": "/files/space_cowboy.mobi"
+                "link": "/files/space_cowboy/space_cowboy.mobi"
             },
             {
                 "label": "Read (pdf)",
-                "link": "/files/space_cowboy.pdf"
+                "link": "/files/space_cowboy/space_cowboy.pdf"
+            }
+        ]
+    },
+    {
+        "id": "stone_son",
+        "title": "Stone Son",
+        "publish_date": "2018-04-06",
+        "publisher": "Speculative66",
+        "publisher_logo": "https://pbs.twimg.com/profile_images/760247307619082240/uOUn2U7a_400x400.jpg",
+        "summary": "This 66-word story was published in Issue 18 of <a href=\"http://speculative66.weebly.com/\" target=\"_blank\">Speculative66</a>, a digital literary magazine of speculative flash fiction.",
+        "links": [
+            {
+                "label": "Read (txt)",
+                "link": "/files/stone_son/stone_son.txt"
+            },
+            {
+                "label": "Read (epub)",
+                "link": "/files/stone_son/stone_son.epub"
+            },
+            {
+                "label": "Read (mobi)",
+                "link": "/files/stone_son/stone_son.mobi"
+            },
+            {
+                "label": "Read (pdf)",
+                "link": "/files/stone_son/stone_son.pdf"
             }
         ]
     }

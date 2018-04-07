@@ -1,23 +1,24 @@
-importScripts('workbox-sw.prod.v2.1.0.js');
+/**
+ * Welcome to your Workbox-powered service worker!
+ *
+ * You'll need to register this file in your web app and you should
+ * disable HTTP caching for this file too.
+ * See https://goo.gl/nhQhGp
+ *
+ * The rest of the code is auto-generated. Please don't update this file
+ * directly; instead, make changes to your Workbox build configuration
+ * and re-run your build process.
+ * See https://goo.gl/2aRDsh
+ */
+
+importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.0.1/workbox-sw.js");
 
 /**
- * DO NOT EDIT THE FILE MANIFEST ENTRY
- *
- * The method precache() does the following:
- * 1. Cache URLs in the manifest to a local cache.
- * 2. When a network request is made for any of these URLs the response
- *    will ALWAYS comes from the cache, NEVER the network.
- * 3. When the service worker changes ONLY assets with a revision change are
- *    updated, old cache entries are left as is.
- *
- * By changing the file manifest manually, your users may end up not receiving
- * new versions of files because the revision hasn't changed.
- *
- * Please use workbox-build or some other tool / approach to generate the file
- * manifest which accounts for changes to local files and update the revision
- * accordingly.
+ * The workboxSW.precacheAndRoute() method efficiently caches and responds to
+ * requests for URLs in the manifest.
+ * See https://goo.gl/S9QRab
  */
-const fileManifest = [
+self.__precacheManifest = [
   {
     "url": "about/index.html",
     "revision": "36f62b2756b6ca0f0e2c02899a9e4f68"
@@ -55,19 +56,35 @@ const fileManifest = [
     "revision": "ecbb8c16e2936e2c3fa0d5ed1db2bdab"
   },
   {
-    "url": "files/helping_hand.epub",
+    "url": "files/casios_dream/casios_dream.epub",
+    "revision": "e77029385bc80df0d8fc19f511702d70"
+  },
+  {
+    "url": "files/casios_dream/casios_dream.mobi",
+    "revision": "921ff549e8d48bfb775d0f9295487a3a"
+  },
+  {
+    "url": "files/casios_dream/casios_dream.pdf",
+    "revision": "e155c4c84512a261fb7ac68e7c06444c"
+  },
+  {
+    "url": "files/casios_dream/casios_dream.txt",
+    "revision": "7d4862a6667a695e093957079e0cf6d2"
+  },
+  {
+    "url": "files/helping_hand/helping_hand.epub",
     "revision": "dd1f375470593fabd92b15ff46b47197"
   },
   {
-    "url": "files/helping_hand.mobi",
+    "url": "files/helping_hand/helping_hand.mobi",
     "revision": "f0a220b904c6531294af12033c69e1e5"
   },
   {
-    "url": "files/helping_hand.pdf",
+    "url": "files/helping_hand/helping_hand.pdf",
     "revision": "a769e6886f592c736bdd8c21dc315aa8"
   },
   {
-    "url": "files/helping_hand.txt",
+    "url": "files/helping_hand/helping_hand.txt",
     "revision": "091ba178e9a1ccd5fa868a8ea569c7d3"
   },
   {
@@ -75,36 +92,52 @@ const fileManifest = [
     "revision": "b2c81423db955802615428679720276e"
   },
   {
-    "url": "files/nearly_nine.epub",
+    "url": "files/nearly_nine/nearly_nine.epub",
     "revision": "878bec5b61e34ae0b8b3103a30c8efab"
   },
   {
-    "url": "files/nearly_nine.mobi",
+    "url": "files/nearly_nine/nearly_nine.mobi",
     "revision": "8576c09299428ff603e9e0166895d6be"
   },
   {
-    "url": "files/nearly_nine.pdf",
+    "url": "files/nearly_nine/nearly_nine.pdf",
     "revision": "f6e6d9d0c8366944d82b550feda2b03e"
   },
   {
-    "url": "files/nearly_nine.txt",
+    "url": "files/nearly_nine/nearly_nine.txt",
     "revision": "f615a048617c293515884da63228d5d4"
   },
   {
-    "url": "files/space_cowboy.epub",
+    "url": "files/space_cowboy/space_cowboy.epub",
     "revision": "f00188219f03dbb0bf3d26c1421defe7"
   },
   {
-    "url": "files/space_cowboy.mobi",
+    "url": "files/space_cowboy/space_cowboy.mobi",
     "revision": "6bbd48c73daa8e399e10219bfdd2b217"
   },
   {
-    "url": "files/space_cowboy.pdf",
+    "url": "files/space_cowboy/space_cowboy.pdf",
     "revision": "0d181b8b769e98cac5560a0bc87265fe"
   },
   {
-    "url": "files/space_cowboy.txt",
+    "url": "files/space_cowboy/space_cowboy.txt",
     "revision": "4714472af4a9a19cb477637902ea12b7"
+  },
+  {
+    "url": "files/stone_son/stone_son.epub",
+    "revision": "a15bbd2113aa122589204f4043c7bc4f"
+  },
+  {
+    "url": "files/stone_son/stone_son.mobi",
+    "revision": "5a5de0f3359cb69b2f9476ef076bd6b5"
+  },
+  {
+    "url": "files/stone_son/stone_son.pdf",
+    "revision": "aa489c2a4585e80321f3e15e440cb5bb"
+  },
+  {
+    "url": "files/stone_son/stone_son.txt",
+    "revision": "e7734d98ce3e240fda4b395847167a11"
   },
   {
     "url": "hire/index.html",
@@ -112,7 +145,7 @@ const fileManifest = [
   },
   {
     "url": "index.html",
-    "revision": "0ed1532da7a19c10be77954c1265b6ae"
+    "revision": "6af80a63b51790ad90bc3843a4584ea3"
   },
   {
     "url": "manifest.json",
@@ -163,16 +196,20 @@ const fileManifest = [
     "revision": "e06606a886a77ef1635270c2a77a7ba7"
   },
   {
+    "url": "news/2018/04/06/speculative66-issue-18.html",
+    "revision": "f71d5200d210f41709845588de69fb25"
+  },
+  {
     "url": "news/feed.xml",
-    "revision": "aed439779b39fbb6c159507a75912ccd"
+    "revision": "b8ff1a22b5258ab56f7af367025dc95d"
   },
   {
     "url": "news/index.html",
-    "revision": "4d1d1c6cacae8f8e15984cdc9a8f4f46"
+    "revision": "c4202ba2a6f3e086939aacf921099d1b"
   },
   {
     "url": "read/index.html",
-    "revision": "5b8aad22ed8486b518006acff06f080e"
+    "revision": "03f7f997e06ec2c0833c47ed7243952f"
   },
   {
     "url": "safari-pinned-tab.svg",
@@ -190,7 +227,6 @@ const fileManifest = [
     "url": "support/index.html",
     "revision": "37571865f67175eba69b42a2843d367f"
   }
-];
-
-const workboxSW = new self.WorkboxSW();
-workboxSW.precache(fileManifest);
+].concat(self.__precacheManifest || []);
+workbox.precaching.suppressWarnings();
+workbox.precaching.precacheAndRoute(self.__precacheManifest, {});

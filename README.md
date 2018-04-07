@@ -37,7 +37,7 @@ Miles.ink is a simple [Progressive Web App](https://developers.google.com/web/pr
 
 To update the service worker:
 
-    workbox generate:sw
+    workbox generateSW workbox-cli-config.js
 
 ## Deploying Miles.ink
 

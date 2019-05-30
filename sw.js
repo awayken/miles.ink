@@ -11,7 +11,13 @@
  * See https://goo.gl/2aRDsh
  */
 
-importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.0.1/workbox-sw.js");
+importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
+
+self.addEventListener('message', (event) => {
+  if (event.data && event.data.type === 'SKIP_WAITING') {
+    self.skipWaiting();
+  }
+});
 
 /**
  * The workboxSW.precacheAndRoute() method efficiently caches and responds to
@@ -145,7 +151,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "6af80a63b51790ad90bc3843a4584ea3"
+    "revision": "aa230b7ce606b266f1c289405a7b4182"
   },
   {
     "url": "manifest.json",
@@ -200,12 +206,16 @@ self.__precacheManifest = [
     "revision": "f71d5200d210f41709845588de69fb25"
   },
   {
+    "url": "news/2018/09/18/blazing-lantern-winner.html",
+    "revision": "7ca95c70ccdb08fcfbd08e277de24478"
+  },
+  {
     "url": "news/feed.xml",
-    "revision": "b8ff1a22b5258ab56f7af367025dc95d"
+    "revision": "9f3cb46c37207939dcc226cee91ed97d"
   },
   {
     "url": "news/index.html",
-    "revision": "c4202ba2a6f3e086939aacf921099d1b"
+    "revision": "c3e179635fe485693b3898627c9b7791"
   },
   {
     "url": "read/index.html",
@@ -228,5 +238,4 @@ self.__precacheManifest = [
     "revision": "37571865f67175eba69b42a2843d367f"
   }
 ].concat(self.__precacheManifest || []);
-workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});

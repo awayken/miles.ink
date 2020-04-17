@@ -2,19 +2,19 @@
     {
         "@context": "http://schema.org",
         "@type": "CreativeWork",
-        "url": "{{ include.work.url }}",
-        "name": "{{ include.work.title }}",
-        "description": {{ include.work.summary | jsonify }},
+        "url": "{{ work.url }}",
+        "name": "{{ work.title }}",
+        "description": {{ work.summary | jsonify }},
         "author": {
             "@type": "Person",
-            "name": "{% if include.work.author %}{{ include.work.author }}{% else %}{{ site.author }}{% endif %}"
+            "name": "{% if work.author %}{{ work.author }}{% else %}{{ site.author }}{% endif %}"
         },
         "publisher": {
             "@type": "Organization",
-            "name": "{{ include.work.publisher }}",
-            "logo": "{{ include.work.publisher_logo }}"
+            "name": "{{ work.publisher }}",
+            "logo": "{{ work.publisher_logo }}"
         },
-        "datePublished": "{{ include.work.publish_date | date: "%b %-d, %Y" }}",
-        "dateModified": "{{ include.work.publish_date | date: "%b %-d, %Y" }}"
+        "datePublished": "{{ work.publish_date | date: "%b %-d, %Y" }}",
+        "dateModified": "{{ work.publish_date | date: "%b %-d, %Y" }}"
     }
 </script>

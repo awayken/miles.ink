@@ -12,24 +12,24 @@ What's Miles.ink made out of?
 
   * [git](http://git-scm.com/)
   * [GitHub](https://github.com/)
-  * [Jekyll](http://jekyllrb.com/)
+  * [Eleventy](https://www.11ty.io/)
   * [Travis CI](https://travis-ci.org/)
 
 ## Generating Miles.ink
 
-Miles.ink is built on Jekyll. To see the site, we have to generate it. Jekyll builds static sites from all sorts of magic parts. There's data, posts, layouts and Sass to do styling.
+Miles.ink is built on Eleventy. To see the site, we have to generate it. Eleventy builds static sites from all sorts of magic parts. There's data, posts, layouts and Sass to do styling.
 
 To generate the site:
 
-    bundle exec jekyll build
+    npm run build
 
 ## Serving Miles.ink
 
-Jekyll has a built-in server that can watch your files for updates and refresh the page for you. Cool? Def.
+Eleventy has a built-in server that can watch your files for updates and refresh the page for you. Cool? Def.
 
 To serve the site:
 
-    bundle exec jekyll serve
+    npm start
 
 ## Updating the Service Worker
 

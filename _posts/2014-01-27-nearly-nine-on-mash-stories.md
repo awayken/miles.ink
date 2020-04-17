@@ -1,7 +1,8 @@
 ---
 title: Nearly Nine on Mash Stories
 date: 2014-01-27
-tags: nearly-nine digital publish mash-stories
+permalink: "/{{ page.date | date: '%Y/%m/%d' }}/nearly-nine-on-mash-stories.html"
+tags: post nearly-nine digital publish mash-stories
 ---
 <a href="http://mashstories.com/previouslypublished/nearly-nine/">"Nearly Nine"</a> is a short story I wrote for a contest on <a href="http://www.mashstories.com">MashStories.com</a>. I was fortunate enough to get short listed. This means my story is up on their website for (literally) dozens of people to read. Make sure you're one of them.
 

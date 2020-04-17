@@ -5,21 +5,21 @@ nav_order: 20
 ---
 <div class="news">
     <ol class="news--list">
-        {% for post in site.posts %}
+        {%- for post in collections.post -%}
             <li class="news--item">
                 <h3 class="news--heading">
-                    <a class="news--link" href="{{ post.url | prepend: site.baseurl }}">
-                        {{ post.title }}
+                    <a class="news--link" href="{{ post.url | url }}">
+                        {{ post.data.title }}
                     </a>
                 </h3>
 
-                <span class="news--meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+                <span class="news--meta">{{ post.date | longdate }}</span>
 
-                <div class="news--excerpt">{{ post.excerpt }}</div>
+                <div class="news--excerpt">{{ post.data.excerpt }}</div>
 
-                {% include schema_newsarticle.html article=post %}
+                {{ include "schema_newsarticle.html", article=post.data }}
             </li>
-        {% endfor %}
+        {%- endfor -%}
     </ol>
 
     <span class="news--footer"><a href="{{ site.baseurl }}/news/feed.xml">Subscribe via <abbr title="Real Syndicated Syntax">RSS</abbr></a></span>

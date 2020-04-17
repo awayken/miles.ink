@@ -1,0 +1,28 @@
+{
+  "name": "miles.ink",
+  "version": "2.0.0",
+  "description": "The writing homepage for Miles Rausch.",
+  "main": "index.html",
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awayken/miles.ink.git"
+  },
+  "keywords": [
+    "blog",
+    "writing"
+  ],
+  "author": "Miles Rausch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/awayken/miles.ink/issues"
+  },
+  "homepage": "https://github.com/awayken/miles.ink#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.8.3"
+  }
+}

@@ -1,6 +1,7 @@
 ---
 title: Welcome to Miles.ink
 date: 2015-05-27
+permalink: "/{{ page.date | date: '%Y/%m/%d' }}/welcome-to-miles.ink.html"
 tags: meta
 ---
 Welcome to [Miles.ink](https://miles.ink), the writing homepage for [Miles Rausch](http://www.milesrausch.com), a man of many faces and a few talents. But just what is Miles.ink all about?

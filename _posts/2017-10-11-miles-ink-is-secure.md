@@ -1,6 +1,7 @@
 ---
 title: Miles.ink Is Secure
 date: 2017-10-11
+permalink: "/{{ page.date | date: '%Y/%m/%d' }}/miles-ink-is-secure.html"
 tags: meta
 ---
 You may have noticed a new feature of the website: a shiny, green padlock up in the address bar. We're secure, readers!

@@ -62,14 +62,18 @@ module.exports = function (eleventyConfig) {
         });
     });
 
-    eleventyConfig.addCollection("post", (collection) => {
-        return collection.getFilteredByGlob("_posts/*.md").sort((a, b) => {
-            return b.data.date - a.data.date;
-        });
+    eleventyConfig.addCollection("post", collection => {
+        return collection.getFilteredByGlob("_posts/*.md").sort((a, b) => b.data.date - a.data.date);
     });
 
-    // Copy the `assets` directory to the compiled site folder
-    // eleventyConfig.addPassthroughCopy('assets');
+    eleventyConfig.addCollection("nav", collection => {
+        return collection.getFilteredByTag("page").sort((item1, item2) => item1.data.nav_order - item2.data.nav_order);
+    });
+
+    // Copy the asset directories to the compiled site folder
+    eleventyConfig.addPassthroughCopy('files');
+    eleventyConfig.addPassthroughCopy('scripts');
+    eleventyConfig.addPassthroughCopy('styles');
 
     return {
         dir: {

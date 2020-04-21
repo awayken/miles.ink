@@ -1,8 +1,8 @@
 ---
 title: The Wax and Wane of Writing
-date: 2014-09-15
-permalink: "/{{ page.date | date: '%Y/%m/%d' }}/the-wax-and-wane-of-writing.html"
-tags: mash-stories craft
+tags:
+    - mash-stories
+    - craft
 ---
 Not to brag, but I'm the first ever winner of the Mash Stories competition. Okay, I meant to brag a little. I write this to forewarn you, the reader and likely writer. It's not often that one finds oneself in the presence of such a contest-winner, unless you happen to be that contest-winner, as I am.  Or was, at least. We'll get to that.
 

@@ -1,8 +1,9 @@
 ---
 title: Mash Stories Interview Miles
-date: 2014-03-20
-permalink: "/{{ page.date | date: '%Y/%m/%d' }}/mash-stories-interviews-miles.html"
-tags: post interview mash-stories
+tags:
+    - post
+    - interview
+    - mash-stories
 ---
 Mash Stories interviewed me to go along with the win. They asked about my stories, discovering the competition and writing in general.
 

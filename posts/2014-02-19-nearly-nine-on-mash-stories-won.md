@@ -1,8 +1,11 @@
 ---
 title: Nearly Nine Chosen as First Mash Stories Winner
-date: 2014-02-19
-permalink: "/{{ page.date | date: '%Y/%m/%d' }}/nearly-nine-on-mash-stories-won.html"
-tags: post nearly-nine digital win mash-stories
+tags:
+    - post
+    - nearly-nine
+    - digital
+    - win
+    - mash-stories
 ---
 <a href="http://mashstories.com/nearly-nine/">"Nearly Nine"</a> is a short story I wrote for a contest on <a href="http://www.mashstories.com">MashStories.com</a>. I was fortunate enough to get short listed, and I was even more fortunate to win.
 

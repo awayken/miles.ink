@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/awayken/miles.ink#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^0.8.3"
+    "@11ty/eleventy": "^0.10.0"
   }
 }

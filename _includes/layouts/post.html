@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: layouts/default.html
 ---
 <nav class="nav">
     <a class="nav--link nav--back" href="{{ site.baseurl }}/news/">Back to News</a>
@@ -7,12 +7,12 @@ layout: default
 
 <article class="news">
     <header>
-        <h1 class="news--heading">{{ page.title }}</h1>
+        <h1 class="news--heading">{{ title }}</h1>
 
         <span class="news--meta">
-            {{ page.date | date: "%b %-d, %Y" }}
-            {% if page.author %} &bull; {{ page.author }}{% endif %}
-            {% if page.meta %} &bull; {{ page.meta }}{% endif %}
+            {{ page.date | shortdate }}
+            {% if author %} &bull; {{ author }}{% endif %}
+            {% if meta %} &bull; {{ meta }}{% endif %}
         </span>
     </header>
 
@@ -20,15 +20,15 @@ layout: default
         {{ content }}
     </section>
 
-{% if page.tags %}
+{% if tags %}
     <footer>
         <ul class="news--list">
-            {% for tag in page.tags %}
+            {%- for tag in tags -%}
                 <li class="news--tag">{{ tag }}</li>
-            {% endfor %}
+            {%- endfor -%}
         </ul>
     </footer>
 {% endif %}
 
-    {% include "schema_newsarticle.html", article=page %}
+    {{ include "schema_newsarticle.html", article=page }}
 </article>

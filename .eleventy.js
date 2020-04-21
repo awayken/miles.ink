@@ -62,8 +62,8 @@ module.exports = function (eleventyConfig) {
         });
     });
 
-    eleventyConfig.addCollection("post", collection => {
-        return collection.getFilteredByGlob("_posts/*.md").sort((a, b) => b.data.date - a.data.date);
+    eleventyConfig.addCollection("news", collection => {
+        return collection.getFilteredByGlob("posts/*.md").sort((a, b) => b.date - a.date);
     });
 
     eleventyConfig.addCollection("nav", collection => {
@@ -75,11 +75,15 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy('scripts');
     eleventyConfig.addPassthroughCopy('styles');
 
+    eleventyConfig.setFrontMatterParsingOptions({
+        excerpt: true,
+        excerpt_separator: "<!-- more -->",
+    });
+
     return {
         dir: {
             input: "./",
-            output: "./_site",
-            layouts: '_layouts'
+            output: "./_site"
         }
     };
 };

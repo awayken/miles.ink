@@ -1,8 +1,10 @@
 ---
 title: Buy Wisdom for Dad by Hugh Weber (and Me)
-date: 2014-04-15
-permalink: "/{{ page.date | date: '%Y/%m/%d' }}/buy-wisdom-for-dad.html"
-tags: wisdom-for-dad print publish hugh-weber
+tags:
+    - wisdom-for-dad
+    - print
+    - publish
+    - hugh-weber
 ---
 <a href="http://bit.ly/dadwisdom" target="_blank" rel="noopener"><em>Wisdom for Dad</em>, Hugh Weber's latest parenting book</a>, is on sale, and you should buy it <strong>today, April 15th</strong>. It features the bite-sized wisdom of Hugh and a number of other dad, including myself.
 

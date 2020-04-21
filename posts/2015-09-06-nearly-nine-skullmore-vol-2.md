@@ -1,8 +1,10 @@
 ---
 title: Nearly Nine Published in Skullmore Vol. 2
-date: 2015-09-06
-permalink: "/{{ page.date | date: '%Y/%m/%d' }}/nearly-nine-skullmore-vol-2.html"
-tags: nearly-nine print publish skullmore
+tags:
+    - nearly-nine
+    - print
+    - publish
+    - skullmore
 ---
 "Nearly Nine" was published in Volume 2 of _Skullmore_, an art and literary magazine published in Sioux Falls, SD.
 

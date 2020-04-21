@@ -4,12 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>{{ if page.title }}{{ page.title }} | {{ endif }}{{ site.title }}</title>
+    <title>{{ if title }}{{ title }} | {{ endif }}{{ site.title }}</title>
 
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | strip_html | strip_newlines }}{% endif %}">
 
     <link rel="stylesheet" href="{{ site.baseurl }}/styles/main.css">
-    <!-- <link rel="canonical" href="{{ page.url | replace: 'index.html','' | prepend: site.baseurl | prepend: site.url }}"> -->
+    <link rel="canonical" href="{{ page.url | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.baseurl }}/news/feed.xml" />
 
     <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/apple-touch-icon.png">

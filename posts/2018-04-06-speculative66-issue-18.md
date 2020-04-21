@@ -1,8 +1,10 @@
 ---
 title: Stone Son Published in Speculative66, Issue 18
-date: 2018-04-06
-permalink: "/{{ page.date | date: '%Y/%m/%d' }}/speculative66-issue-18.html"
-tags: stone-son digital publish speculative66
+tags:
+    - stone-son
+    - digital
+    - publish
+    - speculative66
 ---
 "Stone Son" was published in Issue 18 of [_Speculative66_](http://speculative66.weebly.com/), a digital literary magazine of speculative flash fiction.
 

@@ -1,8 +1,10 @@
 ---
 title: Space Cowboy Published in Speculative66, Issue 10
-date: 2017-07-06
-permalink: "/{{ page.date | date: '%Y/%m/%d' }}/speculative66-issue-10.html"
-tags: space-cowboy digital publish speculative66
+tags:
+    - space-cowboy
+    - digital
+    - publish
+    - speculative66
 ---
 "Space Cowboy" was published in Issue 10 of [_Speculative66_](http://speculative66.weebly.com/), a digital literary magazine of speculative flash fiction.
 

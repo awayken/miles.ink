@@ -1,8 +1,8 @@
 ---
+layout: layouts/default.html
 title: Home
 permalink: /
 nav_order: 1
-layout: default
 tags: page
 ---
 <div class="columns">
@@ -26,7 +26,7 @@ tags: page
         <h2 class="news--headline">News</h2>
 
         <ol class="news--list">
-            {%- for post in collections.post limit:5 -%}
+            {%- for post in collections.news limit:5 -%}
                 <li class="news--item">
                     <h3 class="news--heading">
                         <a class="news--link" href="{{ post.url | url }}">{{ post.data.title }}</a>

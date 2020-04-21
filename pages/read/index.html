@@ -32,7 +32,7 @@ tags: page
                     </ol>
                 {% endif %}
 
-                {% include "schema_creativework.html", work=story %}
+                {{ include "schema_creativework.html", work=story.data }}
             </li>
         {% endfor %}
     </ol>

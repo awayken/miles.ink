@@ -1,7 +1,7 @@
 (function() {
     'use strict';
 
-    if (false && 'serviceWorker' in navigator) {
+    if ('serviceWorker' in navigator) {
         window.addEventListener('load', function() {
             navigator.serviceWorker.register('/sw.js').then(function() {
                 console.log('Installed the Service Worker!');

@@ -5,6 +5,7 @@
   "main": "index.html",
   "scripts": {
     "build": "eleventy",
+    "build:sw": "workbox generateSW workbox-cli-config.js",
     "start": "eleventy --serve",
     "test": "test"
   },

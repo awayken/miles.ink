@@ -74,6 +74,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy('files');
     eleventyConfig.addPassthroughCopy('scripts');
     eleventyConfig.addPassthroughCopy('styles');
+    eleventyConfig.addPassthroughCopy({ favicons: "/" });
 
     eleventyConfig.setFrontMatterParsingOptions({
         excerpt: true,

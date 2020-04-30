@@ -36,9 +36,14 @@ module.exports = function (eleventyConfig) {
         return JSON.stringify(variable);
     });
 
-    // {{ variable | jsonify }}
+    // {{ variable | log }}
     eleventyConfig.addFilter('log', function (variable) {
         console.log(variable);
+    });
+
+    // {{ arrayVariable | sentence }}
+    eleventyConfig.addFilter("sentence", function (arrayVariable) {
+        return arrayVariable.join(' ');
     });
 
     // {{ dateVariable | shortdate }}
@@ -83,7 +88,7 @@ module.exports = function (eleventyConfig) {
 
     eleventyConfig.setFrontMatterParsingOptions({
         excerpt: true,
-        excerpt_separator: "<!-- more -->",
+        excerpt_separator: "<!--more-->",
     });
 
     return {

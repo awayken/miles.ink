@@ -16,9 +16,9 @@ tags: page
 
                 <span class="news--meta">{{ post.date | longdate }}</span>
 
-                <!-- <div class="news--excerpt">{{ post.excerpt }}</div> -->
+                <div class="news--excerpt">{{ post.data.page.excerpt }}</div>
 
-                {{ include "schema_newsarticle.html", article=post.data }}
+                {% include schema/newsarticle.html, article: post %}
             </li>
         {%- endfor -%}
     </ol>

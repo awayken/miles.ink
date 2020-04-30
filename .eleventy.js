@@ -36,6 +36,11 @@ module.exports = function (eleventyConfig) {
         return JSON.stringify(variable);
     });
 
+    // {{ variable | jsonify }}
+    eleventyConfig.addFilter('log', function (variable) {
+        console.log(variable);
+    });
+
     // {{ dateVariable | shortdate }}
     eleventyConfig.addFilter("shortdate", function (dateVariable) {
         return `${dateVariable.getDate()} ${

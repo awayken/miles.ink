@@ -46,8 +46,12 @@ module.exports = function (eleventyConfig) {
         return arrayVariable.join(' ');
     });
 
+    const makeIntoCSTDate = (dateVariable) => dateVariable.getDate ? dateVariable : new Date(`${dateVariable} CST`);
+
     // {{ dateVariable | shortdate }}
     eleventyConfig.addFilter("shortdate", function (dateVariable) {
+        dateVariable = makeIntoCSTDate(dateVariable);
+
         return `${dateVariable.getDate()} ${
             monthsShort[dateVariable.getMonth()]
         } ${dateVariable.getFullYear()}`;
@@ -55,6 +59,8 @@ module.exports = function (eleventyConfig) {
 
     // {{ dateVariable | longdate }}
     eleventyConfig.addFilter("longdate", function (dateVariable) {
+        dateVariable = makeIntoCSTDate(dateVariable);
+
         return `${dateVariable.getDate()} ${
             monthsLong[dateVariable.getMonth()]
         } ${dateVariable.getFullYear()}`;

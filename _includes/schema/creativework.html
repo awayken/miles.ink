@@ -2,8 +2,8 @@
     {
         "@context": "http://schema.org",
         "@type": "CreativeWork",
-        "url": "{{ work.url }}",
-        "name": "{{ work.title }}",
+        "url": "{{ site.url }}{{ work.links[0].link | url }}",
+        "name": {{ work.title | jsonify }},
         "description": {{ work.summary | jsonify }},
         "author": {
             "@type": "Person",
@@ -14,7 +14,7 @@
             "name": "{{ work.publisher }}",
             "logo": "{{ work.publisher_logo }}"
         },
-        "datePublished": "{{ work.publish_date | date: "%b %-d, %Y" }}",
-        "dateModified": "{{ work.publish_date | date: "%b %-d, %Y" }}"
+        "datePublished": "{{ work.publish_date | shortdate }}",
+        "dateModified": "{{ work.publish_date | shortdate }}"
     }
 </script>

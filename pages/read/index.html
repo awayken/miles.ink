@@ -12,14 +12,14 @@ tags: page
     <h2 class="story--headline">Short Stories</h2>
 
     <ol class="story--list">
-        {% for story in site.data.short_stories %}
+        {% for story in short_stories %}
             <li class="story--item">
                 <h3 class="story--heading">&ldquo;{{ story.title }}&rdquo;</h3>
 
                 <p class="story--summary">
                     {{ story.summary }}
 
-                    <span class="story--meta">Published on {{ story.publish_date | date_to_string }}</span>
+                    <span class="story--meta">Published on {{ story.publish_date | shortdate }}</span>
                 </p>
 
                 {% if story.links %}
@@ -32,7 +32,7 @@ tags: page
                     </ol>
                 {% endif %}
 
-                {{ include "schema_creativework.html", work=story.data }}
+                {% include schema/creativework.html, work: story %}
             </li>
         {% endfor %}
     </ol>

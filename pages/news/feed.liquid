@@ -1,0 +1,32 @@
+---
+layout: null
+eleventyExcludeFromCollections: true
+permalink: /news/feed.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ site.title | xml_escape }}</title>
+    <description>{{ site.description | xml_escape }}</description>
+    <link>{{ site.url }}{{ permalink }}</link>
+    <atom:link href="{{ site.url }}{{ permalink }}" rel="self" type="application/rss+xml"/>
+    <pubDate>{% buildTime %}</pubDate>
+    <lastBuildDate>{% buildTime %}</lastBuildDate>
+    <generator>Eleventy</generator>
+    {% for post in collections.news %}
+      <item>
+        <title>{{ post.data.title | xml_escape }}</title>
+        <description>{{ post.content | xml_escape }}</description>
+        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+        <link>{{ site.url }}{{ post.url | url }}</link>
+        <guid isPermaLink="true">{{ site.url }}{{ post.url | url }}</guid>
+        {%- for tag in post.data.tags -%}
+        <category>{{ tag | xml_escape }}</category>
+        {%- endfor -%}
+        {%- for cat in post.data.categories -%}
+        <category>{{ cat | xml_escape }}</category>
+        {%- endfor -%}
+      </item>
+    {%- endfor -%}
+  </channel>
+</rss>

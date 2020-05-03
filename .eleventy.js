@@ -81,7 +81,6 @@ module.exports = function (eleventyConfig) {
     // {% buildTime %}
     eleventyConfig.addShortcode("buildTime", function() {
         const dateTime = new Date();
-        console.log(dateTime)
         return dateTime;
     });
 

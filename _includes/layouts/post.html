@@ -30,5 +30,28 @@ layout: layouts/default.html
     </footer>
 {% endif %}
 
-    {{ include "schema_newsarticle.html", article=page }}
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "NewsArticle",
+            "url": "{{ site.url }}{{ url | url }}",
+            "mainEntityOfPage": {{ content | jsonify }},
+            "name": {{ title | jsonify }},
+            "headline": {{ title | jsonify }},
+            "image": "{{ site.url }}/files/logo.jpg",
+            "description": {{ page.excerpt | jsonify }},
+            "author": {
+                "@type": "Person",
+                "name": "{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "{{ site.title }}",
+                "logo": "{{ site.url }}/files/logo.jpg"
+            },
+            "datePublished": "{{ page.date | shortdate }}",
+            "dateModified": "{{ page.date | shortdate }}",
+            "keywords": "{{ tags | sentence }}"
+        }
+    </script>
 </article>

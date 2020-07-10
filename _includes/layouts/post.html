@@ -1,8 +1,11 @@
 ---
 layout: layouts/default.html
 ---
+
 <nav class="nav">
-    <a class="nav--link nav--back" href="{{ site.baseurl }}/news/">Back to News</a>
+    <a class="nav--link nav--back" href="{{ site.baseurl }}/news/"
+        >Back to News</a
+    >
 </nav>
 
 <article class="news">
@@ -10,9 +13,8 @@ layout: layouts/default.html
         <h1 class="news--heading">{{ title }}</h1>
 
         <span class="news--meta">
-            {{ page.date | shortdate }}
-            {% if author %} &bull; {{ author }}{% endif %}
-            {% if meta %} &bull; {{ meta }}{% endif %}
+            {{ page.date | shortdate }} {% if author %} &bull; {{ author }}{%
+            endif %} {% if meta %} &bull; {{ meta }}{% endif %}
         </span>
     </header>
 
@@ -20,15 +22,15 @@ layout: layouts/default.html
         {{ content }}
     </section>
 
-{% if tags %}
+    {% if tags %}
     <footer>
         <ul class="news--list">
             {%- for tag in tags -%}
-                <li class="news--tag">{{ tag }}</li>
+            <li class="news--tag">{{ tag }}</li>
             {%- endfor -%}
         </ul>
     </footer>
-{% endif %}
+    {% endif %}
 
     <script type="application/ld+json">
         {

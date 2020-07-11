@@ -78,7 +78,8 @@ module.exports = function (eleventyConfig) {
     // {% buildTime %}
     eleventyConfig.addShortcode("buildTime", function () {
         const dateTime = new Date();
-        return dateTime;
+
+        return dateTime.toUTCString();
     });
 
     eleventyConfig.addCollection("news", (collection) => {

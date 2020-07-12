@@ -75,12 +75,23 @@ module.exports = function (eleventyConfig) {
         });
     });
 
+    // Shortcodes
+
     // {% buildTime %}
     eleventyConfig.addShortcode("buildTime", function () {
         const dateTime = new Date();
 
         return dateTime.toUTCString();
     });
+
+    // {% linkToItem "item-slug", collection %}
+    eleventyConfig.addShortcode("linkToItem", function (itemSlug, collection = []) {
+        const itemData = collection.find(item => item.fileSlug === itemSlug) || {};
+
+        return itemData.url || `/${itemSlug}.html`;
+    });
+
+    // Collections
 
     eleventyConfig.addCollection("news", (collection) => {
         return collection

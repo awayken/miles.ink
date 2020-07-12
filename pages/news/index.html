@@ -7,7 +7,7 @@ tags: page
 
 <div class="news">
     <ol class="news--list">
-        {%- for post in collections.news -%}
+    {%- for post in collections.news -%}
         <li class="news--item">
             <h3 class="news--heading">
                 <a class="news--link" href="{{ post.url | url }}">
@@ -21,7 +21,7 @@ tags: page
 
             {% include schema/newsarticle.html, article: post %}
         </li>
-        {%- endfor -%}
+    {%- endfor -%}
     </ol>
 
     <span class="news--footer"

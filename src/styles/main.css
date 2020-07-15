@@ -5,6 +5,8 @@
 **/
 
 :root {
+    --serif-family: Baskerville, Cambria, "Roboto Slab", "Linux Libertine", Georgia, "Times New Roman", Times, serif;
+
     --color-brand: #660066;
     --color-brand-bright: #7F0D7F;
     --color-accent: #0A6658;
@@ -468,7 +470,7 @@ html {
 body {
     background: #fff;
     color: var(--color-text);
-    font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+    font-family: var(--serif-family);
     font-size: var(--size-base);
     line-height: 1.3;
 }

@@ -485,6 +485,12 @@ a:active {
     color: darken(var(--color-brand), 15%);
 }
 
+img {
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
+}
+
 h1,
 h2 {
     line-height: 1;

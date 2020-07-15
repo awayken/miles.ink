@@ -132,7 +132,7 @@ module.exports = function (eleventyConfig) {
         clientsClaim: true,
         skipWaiting: true,
         globPatterns: [
-            "src/*.{html,jpg,png,pdf,xml,css,js,json,svg,epub,mobi,txt}",
+            "**/*.{html,jpg,png,pdf,xml,css,js,json,svg,epub,mobi,txt}",
         ],
     });
 

@@ -25,9 +25,9 @@ layout: layouts/default.html
     {% if tags %}
     <footer>
         <ul class="news--list">
-            {%- for tag in tags -%}
+        {%- for tag in tags -%}
             <li class="news--tag">{{ tag }}</li>
-            {%- endfor -%}
+        {%- endfor -%}
         </ul>
     </footer>
     {% endif %}
@@ -36,24 +36,28 @@ layout: layouts/default.html
         {
             "@context": "http://schema.org",
             "@type": "NewsArticle",
-            "url": "{{ site.url }}{{ url | url }}",
-            "mainEntityOfPage": {{ content | jsonify }},
-            "name": {{ title | jsonify }},
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "{{ site.url }}{{ page.url }}"
+            },
             "headline": {{ title | jsonify }},
-            "image": "{{ site.url }}/files/logo.jpg",
-            "description": {{ page.excerpt | jsonify }},
+            "image": [
+                "{{ site.url }}/files/logo.jpg"
+            ],
             "author": {
                 "@type": "Person",
-                "name": "{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}"
+                "name": {% if page.author %}{{ page.author | jsonify }}{% else %}{{ site.author | jsonify }}{% endif %}
             },
             "publisher": {
                 "@type": "Organization",
-                "name": "{{ site.title }}",
-                "logo": "{{ site.url }}/files/logo.jpg"
+                "name": {{ site.title | jsonify }},
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "{{ site.url }}/files/logo.jpg"
+                }
             },
-            "datePublished": "{{ page.date | shortdate }}",
-            "dateModified": "{{ page.date | shortdate }}",
-            "keywords": "{{ tags | sentence }}"
+            "datePublished": "{{ page.date | date: "%Y-%m-%dT%H:%M:%S%z" }}",
+            "dateModified": "{{ page.date | date: "%Y-%m-%dT%H:%M:%S%z" }}"
         }
     </script>
 </article>

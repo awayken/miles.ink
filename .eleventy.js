@@ -51,19 +51,23 @@ module.exports = function (eleventyConfig) {
     const makeIntoCSTDate = (dateVariable) =>
         dateVariable.getDate ? dateVariable : new Date(`${dateVariable} CST`);
 
-    // {{ dateVariable | shortdate }}
-    eleventyConfig.addFilter("shortdate", function (dateVariable) {
+    const makeShortDate = (dateVariable) => {
         dateVariable = makeIntoCSTDate(dateVariable);
 
         return `${dateVariable.getDate()} ${monthsShort[dateVariable.getMonth()]} ${dateVariable.getFullYear()}`;
-    });
+    };
 
-    // {{ dateVariable | longdate }}
-    eleventyConfig.addFilter("longdate", function (dateVariable) {
+    const makeLongDate = (dateVariable) => {
         dateVariable = makeIntoCSTDate(dateVariable);
 
         return `${dateVariable.getDate()} ${monthsLong[dateVariable.getMonth()]} ${dateVariable.getFullYear()}`;
-    });
+    };
+
+    // {{ dateVariable | shortdate }}
+    eleventyConfig.addFilter("shortdate", makeShortDate);
+
+    // {{ dateVariable | longdate }}
+    eleventyConfig.addFilter("longdate", makeLongDate);
 
     // {{ array | where: key,value }}
     eleventyConfig.addFilter("where", function (array, key, value) {
@@ -82,6 +86,21 @@ module.exports = function (eleventyConfig) {
     // {% buildTime %}
     eleventyConfig.addShortcode("buildTime", function () {
         const dateTime = new Date();
+
+        return dateTime.toUTCString();
+    });
+
+    // {% buildDate "format" %}
+    eleventyConfig.addShortcode("buildDate", function (format) {
+        const dateTime = new Date();
+
+        if (format === 'short') {
+            return makeShortDate(dateTime);
+        } else if (format === 'long') {
+            return makeLongDate(dateTime);
+        } else if (format === 'year') {
+            return dateTime.getFullYear();
+        }
 
         return dateTime.toUTCString();
     });

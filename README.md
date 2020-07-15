@@ -33,8 +33,8 @@ To serve the site:
 
 ## Deploying Miles.ink
 
-Miles.ink uses Glynn to deploy it. For obvious reasons, the `_glynn.yml` file is not committed with the project.
+Miles.ink uses a Node script to deploy itself. For obvious reasons, the `deploy.js` file is not committed with the project.
 
 To deploy the site:
 
-    glynn
+    npm run deploy

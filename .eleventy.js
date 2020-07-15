@@ -101,7 +101,7 @@ module.exports = function (eleventyConfig) {
 
     eleventyConfig.addCollection("news", (collection) => {
         return collection
-            .getFilteredByGlob("posts/*.md")
+            .getFilteredByGlob("src/posts/*.md")
             .sort((a, b) => b.date - a.date);
     });
 

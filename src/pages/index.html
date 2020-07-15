@@ -1,0 +1,46 @@
+---
+layout: layouts/default.html
+title: Home
+permalink: /
+nav_order: 1
+tags: page
+---
+<div class="columns">
+    <div class="welcome columns--column">
+        <h2 class="welcome--headline">Welcome to Miles.ink</h2>
+
+        <p>What can I write about myself that doesn't sound like every other writer's tired biography? I love to write for humans and computers, so I made a writing website (which is more programming that Hemingway ever did).</p>
+
+        <p>What can I put here to encourage you to read my site?</p>
+
+        <ul class="u--unlist">
+            <li>"Please, read my site."</li>
+            <li>"READ MY SITE NOW"</li>
+            <li>"There's free stuff somewhere on this website&hellip;"</li>
+        </ul>
+
+        <p>Yeah, maybe that last one.</p>
+    </div>
+
+    <div class="news columns--column">
+        <h2 class="news--headline">News</h2>
+
+        <ol class="news--list">
+            {%- for post in collections.news limit:5 -%}
+                <li class="news--item">
+                    <h3 class="news--heading">
+                        <a class="news--link" href="{{ post.url | url }}">{{ post.data.title }}</a>
+                    </h3>
+
+                    <span class="news--meta">{{ post.date | shortdate }}</span>
+                </li>
+            {%- endfor -%}
+        </ol>
+
+        <span class="news--footer">
+            <a href="{{ site.baseurl }}/news/">Read more</a>
+            or
+            <a href="{{ site.baseurl }}/news/feed.xml">Subscribe via <abbr title="Real Syndicated Syntax">RSS</abbr></a>
+        </span>
+    </div>
+</div>

@@ -1,4 +1,5 @@
 _site
+dist
 .sass-cache
 _glynn.yml
 node_modules

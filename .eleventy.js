@@ -87,8 +87,12 @@ module.exports = function (eleventyConfig) {
     });
 
     // {% linkToItem "item-slug", collection %}
-    eleventyConfig.addShortcode("linkToItem", function (itemSlug, collection = []) {
-        const itemData = collection.find(item => item.fileSlug === itemSlug) || {};
+    eleventyConfig.addShortcode("linkToItem", function (
+        itemSlug,
+        collection = []
+    ) {
+        const itemData =
+            collection.find((item) => item.fileSlug === itemSlug) || {};
 
         return itemData.url || `/${itemSlug}.html`;
     });
@@ -110,10 +114,10 @@ module.exports = function (eleventyConfig) {
     });
 
     // Copy the asset directories to the compiled site folder
-    eleventyConfig.addPassthroughCopy("files");
-    eleventyConfig.addPassthroughCopy("scripts");
-    eleventyConfig.addPassthroughCopy("styles");
-    eleventyConfig.addPassthroughCopy({ favicons: "/" });
+    eleventyConfig.addPassthroughCopy("src/files");
+    eleventyConfig.addPassthroughCopy("src/scripts");
+    eleventyConfig.addPassthroughCopy("src/styles");
+    eleventyConfig.addPassthroughCopy({ "src/favicons": "/" });
 
     eleventyConfig.setFrontMatterParsingOptions({
         excerpt: true,
@@ -123,19 +127,19 @@ module.exports = function (eleventyConfig) {
     // Plugins
 
     eleventyConfig.addPlugin(pluginPWA, {
-        swDest: "./_site/sw.js",
-        globDirectory: "./_site",
+        swDest: "dist/sw.js",
+        globDirectory: "dist",
         clientsClaim: true,
         skipWaiting: true,
         globPatterns: [
-            "**/*.{html,jpg,png,pdf,xml,css,js,json,svg,epub,mobi,txt}",
+            "src/*.{html,jpg,png,pdf,xml,css,js,json,svg,epub,mobi,txt}",
         ],
     });
 
     return {
         dir: {
-            input: "./",
-            output: "./_site",
+            input: "src",
+            output: "dist",
         },
     };
 };

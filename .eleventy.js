@@ -1,5 +1,7 @@
 // Eleventy Configuration
 
+const pluginPWA = require("eleventy-plugin-pwa");
+
 const monthsLong = [
     "January",
     "February",
@@ -116,6 +118,18 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.setFrontMatterParsingOptions({
         excerpt: true,
         excerpt_separator: "<!--more-->",
+    });
+
+    // Plugins
+
+    eleventyConfig.addPlugin(pluginPWA, {
+        swDest: "./_site/sw.js",
+        globDirectory: "./_site",
+        clientsClaim: true,
+        skipWaiting: true,
+        globPatterns: [
+            "**/*.{html,jpg,png,pdf,xml,css,js,json,svg,epub,mobi,txt}",
+        ],
     });
 
     return {

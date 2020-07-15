@@ -25,9 +25,9 @@ layout: layouts/default.html
     {% if tags %}
     <footer>
         <ul class="news--list">
-        {%- for tag in tags -%}
+            {%- for tag in tags -%}
             <li class="news--tag">{{ tag }}</li>
-        {%- endfor -%}
+            {%- endfor -%}
         </ul>
     </footer>
     {% endif %}
@@ -58,6 +58,29 @@ layout: layouts/default.html
             },
             "datePublished": "{{ page.date | date: "%Y-%m-%dT%H:%M:%S%z" }}",
             "dateModified": "{{ page.date | date: "%Y-%m-%dT%H:%M:%S%z" }}"
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [{
+            "@type": "ListItem",
+            "position": 1,
+            "name": {{ site.title | jsonify }},
+            "item": "{{ site.url }}"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "News",
+            "item": "{{ site.url }}/news"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": {{ title | jsonify }}
+          }]
         }
     </script>
 </article>

@@ -679,6 +679,10 @@ button {
     padding: .5em 0;
 }
 
+.nav--list--centered {
+    justify-content: center;
+}
+
 .nav--item {
     flex: none;
     padding: 0 .25em;

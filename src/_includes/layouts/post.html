@@ -1,0 +1,86 @@
+---
+layout: layouts/default.html
+---
+
+<nav class="nav">
+    <a class="nav--link nav--back" href="{{ site.baseurl }}/news/"
+        >Back to News</a
+    >
+</nav>
+
+<article class="news">
+    <header>
+        <h1 class="news--heading">{{ title }}</h1>
+
+        <span class="news--meta">
+            {{ page.date | shortdate }} {% if author %} &bull; {{ author }}{%
+            endif %} {% if meta %} &bull; {{ meta }}{% endif %}
+        </span>
+    </header>
+
+    <section class="news--content">
+        {{ content }}
+    </section>
+
+    {% if tags %}
+    <footer>
+        <ul class="news--list">
+            {%- for tag in tags -%}
+            <li class="news--tag">{{ tag }}</li>
+            {%- endfor -%}
+        </ul>
+    </footer>
+    {% endif %}
+
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "NewsArticle",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "{{ site.url }}{{ page.url }}"
+            },
+            "headline": {{ title | jsonify }},
+            "image": [
+                "{{ site.url }}/files/logo.jpg"
+            ],
+            "author": {
+                "@type": "Person",
+                "name": {% if page.author %}{{ page.author | jsonify }}{% else %}{{ site.author | jsonify }}{% endif %}
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": {{ site.title | jsonify }},
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "{{ site.url }}/files/logo.jpg"
+                }
+            },
+            "datePublished": "{{ page.date | date: "%Y-%m-%dT%H:%M:%S%z" }}",
+            "dateModified": "{{ page.date | date: "%Y-%m-%dT%H:%M:%S%z" }}"
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [{
+            "@type": "ListItem",
+            "position": 1,
+            "name": {{ site.title | jsonify }},
+            "item": "{{ site.url }}"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "News",
+            "item": "{{ site.url }}/news"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": {{ title | jsonify }}
+          }]
+        }
+    </script>
+</article>

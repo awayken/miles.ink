@@ -1,0 +1,37 @@
+---
+title: Read &amp; Discover
+permalink: /read/
+nav_order: 10
+tags: page
+---
+<p>Plenty of my stuff is online for free. Why? Because I'm an idiot, apparently. No, but serious, though, folks: I've been around. Part of trying to get people to publish you is letting other people publish you way out in the open. Read some of my stuff below.</p>
+
+<p>Do you want access to an exclusive ebook of some of my short stories? <a href="https://www.patreon.com/user?u=784219&amp;ty=h" target="_blank" rel="noopener">Support me on Patreon</a> and get at least that free ebook as a reward. Learn more about how you can support my habit on my <a href="{{ site.baseurl }}/support/">Support page</a>.</p>
+
+<div class="story">
+    <h2 class="story--headline">Short Stories</h2>
+
+    <ol class="story--list">
+        {% for story in short_stories %}
+            <li class="story--item">
+                <h3 class="story--heading">&ldquo;{{ story.title }}&rdquo;</h3>
+
+                <p class="story--summary">
+                    {{ story.summary }}
+
+                    <span class="story--meta">Published on {{ story.publish_date | shortdate }}</span>
+                </p>
+
+                {% if story.links %}
+                    <ol class="story--list">
+                        {% for link in story.links %}
+                            <li class="story--link">
+                                <a href="{{ link.link }}">{{ link.label }}</a>
+                            </li>
+                        {% endfor %}
+                    </ol>
+                {% endif %}
+            </li>
+        {% endfor %}
+    </ol>
+</div>

@@ -1,0 +1,32 @@
+---
+layout: null
+eleventyExcludeFromCollections: true
+permalink: /news/feed.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ site.title | escape }}</title>
+    <description>{{ site.description | escape }}</description>
+    <link>{{ site.url }}{{ permalink }}</link>
+    <atom:link href="{{ site.url }}{{ permalink }}" rel="self" type="application/rss+xml"/>
+    <pubDate>{% buildTime %}</pubDate>
+    <lastBuildDate>{% buildTime %}</lastBuildDate>
+    <generator>Eleventy</generator>
+    {% for post in collections.news %}
+      <item>
+        <title>{{ post.data.title | escape }}</title>
+        <description>{{ post.templateContent | escape }}</description>
+        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+        <link>{{ site.url }}{{ post.url | url }}</link>
+        <guid isPermaLink="true">{{ site.url }}{{ post.url | url }}</guid>
+        {%- for tag in post.data.tags -%}
+            <category>{{ tag | escape }}</category>
+        {%- endfor -%}
+        {%- for cat in post.data.categories -%}
+            <category>{{ cat | escape }}</category>
+        {%- endfor -%}
+        </item>
+        {%- endfor -%}
+  </channel>
+</rss>

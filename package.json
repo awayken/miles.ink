@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/awayken/miles.ink#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^0.10.0",
+    "@11ty/eleventy": "^0.11.0",
     "eleventy-plugin-pwa": "^1.0.8",
     "ftp-deploy": "^2.3.7"
   }

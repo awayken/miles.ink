@@ -4,7 +4,7 @@
 
 [![Build Status](https://travis-ci.org/awayken/miles.ink.svg?branch=master)](https://travis-ci.org/awayken/miles.ink)
 
-[Miles.ink](https://miles.ink) is the homepage to learn more about Miles Rausch as a writer. It's powered by [Eleventy](https://www.11ty.io/) and written by me, Miles Rausch.
+[Miles.ink](https://miles.ink) is the homepage to learn more about Miles Rausch as a writer. It's powered by [Eleventy](https://www.11ty.dev/) and written by me, Miles Rausch.
 
 **WHAT??** Yes, the writer, Miles Rausch, is also [the developer, Miles Rausch](https://github.com/awayken/).
 
@@ -12,7 +12,7 @@ What's Miles.ink made out of?
 
   * [git](http://git-scm.com/)
   * [GitHub](https://github.com/)
-  * [Eleventy](https://www.11ty.io/)
+  * [Eleventy](https://www.11ty.dev/)
   * [Travis CI](https://travis-ci.org/)
 
 ## Generating Miles.ink

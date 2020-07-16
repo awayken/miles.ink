@@ -22,7 +22,7 @@
   "bugs": {
     "url": "https://github.com/awayken/miles.ink/issues"
   },
-  "homepage": "https://github.com/awayken/miles.ink#readme",
+  "homepage": "https://miles.ink",
   "devDependencies": {
     "@11ty/eleventy": "^0.11.0",
     "eleventy-plugin-pwa": "^1.0.8",

@@ -1142,3 +1142,7 @@ button {
     margin: 0;
     padding: 0;
 }
+
+.u--text-center {
+    text-align: center;
+}

@@ -730,6 +730,7 @@ button {
 }
 
 .columns-flex > * {
+    flex: 1;
     padding: 4px;
 }
 

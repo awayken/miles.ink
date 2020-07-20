@@ -14,23 +14,32 @@ tags: page
     <ol class="story--list">
         {% for story in novels %}
             <li class="story--item">
-                <h3 class="story--heading">&ldquo;{{ story.title }}&rdquo;</h3>
+                <div class="columns-flex">
+                    <div class="columns-flex__sidebar u--text-center">
+                        {% if story.cover %}
+                            <img src="{{ story.cover }}" alt="" height="300" width="188" />
+                        {% endif %}
+                    </div>
+                    <div>
+                        <h3 class="story--heading">&ldquo;{{ story.title }}&rdquo;</h3>
 
-                <p class="story--summary">
-                    {{ story.summary }}
+                        <p class="story--summary">
+                            {{ story.summary }}
 
-                    <span class="story--meta">Published on {{ story.publish_date | shortdate }}</span>
-                </p>
+                            <span class="story--meta">Published on {{ story.publish_date | shortdate }}</span>
+                        </p>
 
-                {% if story.links %}
-                    <ol class="story--list">
-                        {% for link in story.links %}
-                            <li class="story--link">
-                                <a href="{{ link.link }}">{{ link.label }}</a>
-                            </li>
-                        {% endfor %}
-                    </ol>
-                {% endif %}
+                        {% if story.links %}
+                            <ol class="story--list">
+                                {% for link in story.links %}
+                                    <li class="story--link">
+                                        <a href="{{ link.link }}">{{ link.label }}</a>
+                                    </li>
+                                {% endfor %}
+                            </ol>
+                        {% endif %}
+                    </div>
+                </div>
             </li>
         {% endfor %}
     </ol>

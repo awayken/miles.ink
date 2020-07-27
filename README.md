@@ -33,7 +33,7 @@ To serve the site:
 
 ## Deploying Miles.ink
 
-Miles.ink uses a Node script to deploy itself. For obvious reasons, the `deploy.js` file is not committed with the project. I could commit it and use environment variables to keep the secret stuff secret, and maybe I'll do that in the future.
+Miles.ink uses a Node script to deploy itself. To take advantage of `deploy.js`, you need to define some environment variables. The project includes the `dotenv` npm package to help facilitate this process. Make a copy of `sample.env`, rename it to `.env` and then fill out the values appropriately for your target FTP server. DO NOT commit your new `.env` file. It is ignored for a reason: to keep your secrets safe.
 
 To deploy the site:
 

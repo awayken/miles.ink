@@ -1,0 +1,20 @@
+[
+    {
+        "id": "robot_dance_club",
+        "title": "Robot Dance Club",
+        "cover": "/files/robot_dance_club/robot_dance_club-cover.jpg",
+        "publish_date": "2019-09-27",
+        "publisher": "Empire Comic Press",
+        "summary": "The robots have won.<br><br>That terrifying moment when humanity's creations acquired sentience is past.<br><br>But mankind does not live in fear. The human race is not enslaved, destroyed or wired up like batteries. It is simply ignored.<br><br>The robots carry on. They build. They destroy. They continue.<br><br>And, of course, they dance.",
+        "links": [
+            {
+                "label": "Buy on comiXology",
+                "link": "https://www.comixology.com/Robot-Dance-Club/comics-series/139899"
+            },
+            {
+                "label": "Learn More on EmpireComic.press",
+                "link": "https://empirecomic.press/robot-dance-club"
+            }
+        ]
+    }
+]

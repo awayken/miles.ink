@@ -33,7 +33,46 @@ tags: page
                             <ol class="story--list">
                                 {% for link in story.links %}
                                     <li class="story--link">
-                                        <a href="{{ link.link }}">{{ link.label }}</a>
+                                        <a href="{{ link.link }}" target="_blank" rel="noopener">{{ link.label }}</a>
+                                    </li>
+                                {% endfor %}
+                            </ol>
+                        {% endif %}
+                    </div>
+                </div>
+            </li>
+        {% endfor %}
+    </ol>
+</div>
+
+<hr>
+
+<div class="story">
+    <h2 class="story--headline">Comics &amp; Graphic Novels</h2>
+
+    <ol class="story--list">
+        {% for story in comics %}
+            <li class="story--item">
+                <div class="columns-flex">
+                    <div class="columns-flex__sidebar u--text-center">
+                        {% if story.cover %}
+                            <img src="{{ story.cover }}" alt="" height="300" width="204" />
+                        {% endif %}
+                    </div>
+                    <div>
+                        <h3 class="story--heading">&ldquo;{{ story.title }}&rdquo;</h3>
+
+                        <p class="story--summary">
+                            {{ story.summary }}
+
+                            <span class="story--meta">Published on {{ story.publish_date | shortdate }}</span>
+                        </p>
+
+                        {% if story.links %}
+                            <ol class="story--list">
+                                {% for link in story.links %}
+                                    <li class="story--link">
+                                        <a href="{{ link.link }}" target="_blank" rel="noopener">{{ link.label }}</a>
                                     </li>
                                 {% endfor %}
                             </ol>

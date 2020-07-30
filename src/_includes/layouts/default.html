@@ -9,6 +9,12 @@
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | strip_html | strip_newlines }}{% endif %}">
 
     <link rel="stylesheet" href="{{ site.baseurl }}/styles/main.css">
+    <script type="module">
+        import { getTheme } from '/scripts/theme-manager.js';
+
+        getTheme();
+    </script>
+
     <link rel="canonical" href="{{ page.url | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.baseurl }}/news/feed.xml" />
 

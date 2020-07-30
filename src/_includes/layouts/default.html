@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="default">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -31,6 +31,12 @@
     </script>
 </head>
 <body>
+    <span class="switcher">
+    {%- for theme in themes -%}
+        <theme-switch name="{{ theme.name }}" themeid="{{ theme.id }}" data-theme="{{ theme.id }}"></theme-switch>
+    {%- endfor -%}
+    </span>
+
     <div class="page">
         <header class="header" role="presentation">
             <h2 class="header--name">
@@ -90,6 +96,6 @@
         </footer>
     </div>
 
-    <script async src="{{ site.baseurl }}/scripts/app.js"></script>
+    <script async type="module" src="/scripts/app.js"></script>
 </body>
 </html>

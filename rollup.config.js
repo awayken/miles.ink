@@ -1,4 +1,5 @@
 import { nodeResolve } from "@rollup/plugin-node-resolve";
+import { terser } from "rollup-plugin-terser";
 
 export default {
     input: "src/_scripts/app.js",
@@ -7,6 +8,7 @@ export default {
         entryFileNames: "[name].js",
         format: "iife",
         name: "app",
+        sourcemap: true,
     },
-    plugins: [nodeResolve()],
+    plugins: [nodeResolve(), terser()],
 };

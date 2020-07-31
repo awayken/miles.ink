@@ -18,6 +18,7 @@ class ThemeSwitch extends LitElement {
                 -webkit-appearance: none;
                 border: 0;
                 border-radius: 0.35em;
+                cursor: pointer;
                 display: flex;
                 margin: 0 4px;
                 overflow: hidden;

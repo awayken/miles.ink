@@ -3,13 +3,15 @@
   "version": "3.0.0",
   "description": "The writing homepage for Miles Rausch.",
   "scripts": {
-    "build": "npm run build:scripts && npm run build:html",
+    "build": "npm-run-all build:scripts build:html",
     "build:html": "eleventy",
     "build:scripts": "rollup --config",
     "deploy": "npm run build && npm run redeploy",
     "redeploy": "node deploy",
-    "start": "eleventy --serve",
-    "test": "test"
+    "start": "npm-run-all --parallel watch:*",
+    "test": "test",
+    "watch:html": "eleventy --serve",
+    "watch:scripts": "rollup --config --watch"
   },
   "repository": {
     "type": "git",
@@ -32,6 +34,8 @@
     "eleventy-plugin-pwa": "^1.0.8",
     "ftp-deploy": "^2.3.7",
     "lit-element": "^2.3.1",
-    "rollup": "^2.23.0"
+    "npm-run-all": "^4.1.5",
+    "rollup": "^2.23.0",
+    "rollup-plugin-terser": "^6.1.0"
   }
 }

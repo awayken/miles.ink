@@ -1,4 +1,4 @@
-(function() {
+(function () {
     'use strict';
 
     if ('serviceWorker' in navigator) {
@@ -10,4 +10,5 @@
             });
         });
     }
-})();
+
+}());

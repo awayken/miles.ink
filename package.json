@@ -3,8 +3,10 @@
   "version": "3.0.0",
   "description": "The writing homepage for Miles Rausch.",
   "scripts": {
-    "build": "eleventy",
-    "deploy": "eleventy && node deploy",
+    "build": "npm run build:scripts && npm run build:html",
+    "build:html": "eleventy",
+    "build:scripts": "rollup --config",
+    "deploy": "npm run build && npm run redeploy",
     "redeploy": "node deploy",
     "start": "eleventy --serve",
     "test": "test"
@@ -27,6 +29,7 @@
     "@11ty/eleventy": "^0.11.0",
     "dotenv": "^8.2.0",
     "eleventy-plugin-pwa": "^1.0.8",
-    "ftp-deploy": "^2.3.7"
+    "ftp-deploy": "^2.3.7",
+    "rollup": "^2.23.0"
   }
 }

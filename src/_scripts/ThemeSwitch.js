@@ -2,7 +2,7 @@ import {
     css,
     html,
     LitElement,
-} from "https://unpkg.com/lit-element@2.2/lit-element.js?module";
+} from "lit-element";
 
 import { setTheme } from './theme-manager.js';
 

@@ -4,7 +4,7 @@ import {
     LitElement,
 } from "lit-element";
 
-import { setTheme } from './theme-manager.js';
+import { setTheme } from '../utils/theme-manager.js';
 
 class ThemeSwitch extends LitElement {
     static get styles() {

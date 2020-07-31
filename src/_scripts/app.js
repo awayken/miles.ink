@@ -1,6 +1,6 @@
-import { getTheme } from "./theme-manager.js";
+import { getTheme } from "./utils/theme-manager.js";
 
-import "./ThemeSwitch.js";
+import "./components/ThemeSwitch.js";
 
 getTheme();
 

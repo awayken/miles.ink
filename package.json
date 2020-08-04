@@ -1,12 +1,12 @@
 {
   "name": "miles.ink",
-  "version": "3.0.0",
+  "version": "3.0.0-canary.0",
   "description": "The writing homepage for Miles Rausch.",
   "scripts": {
     "build": "npm-run-all build:scripts build:html",
     "build:html": "eleventy",
     "build:scripts": "rollup --config",
-    "deploy": "npm run build && npm run redeploy",
+    "deploy": "npm-run-all build redeploy",
     "redeploy": "node deploy",
     "start": "npm-run-all --parallel watch:*",
     "test": "test",

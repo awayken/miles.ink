@@ -27,9 +27,13 @@
   "homepage": "https://miles.ink",
   "devDependencies": {
     "@11ty/eleventy": "^0.11.0",
+    "@rollup/plugin-node-resolve": "^11.1.0",
     "dotenv": "^8.2.0",
     "eleventy-plugin-pwa": "^1.0.8",
     "ftp-deploy": "^2.3.7",
     "rollup": "^2.23.0"
+  },
+  "dependencies": {
+    "lit-element": "^2.4.0"
   }
 }

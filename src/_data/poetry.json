@@ -1,0 +1,32 @@
+[
+    {
+        "id": "trinidentium",
+        "title": "Trinidentium",
+        "cover": "/files/trinidentium/trinidentium-cover.jpg",
+        "publish_date": "2021-09-09",
+        "publisher": "Self-Published",
+        "summary": "Trinidentium: Poems of Identity in Triplicate is the author’s debut collection of poetry. Inasmuch as poetry is an exploration of reality, this collection is a journey of self-identity.",
+        "links": [
+            {
+                "label": "Buy Amazon Kindle (US)",
+                "link": "https://www.amazon.com/dp/B09FS3RSR2"
+            },
+            {
+                "label": "Buy Amazon Kindle (UK)",
+                "link": "https://www.amazon.co.uk/dp/B09FS3RSR2"
+            },
+            {
+                "label": "Buy Amazon Paperback (US)",
+                "link": "https://www.amazon.com/dp/B09KNGBDF7"
+            },
+            {
+                "label": "Buy Amazon Paperback (UK)",
+                "link": "https://www.amazon.co.uk/dp/B09KNGBDF7"
+            },
+            {
+                "label": "Shelve on Goodreads",
+                "link": "#"
+            }
+        ]
+    }
+]

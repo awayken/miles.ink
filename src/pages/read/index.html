@@ -13,7 +13,7 @@ tags: page
 
     <ol class="story--list">
         {% for story in novels %}
-            <li class="story--item">
+            <li class="story--item" id="novel_{{ story.id }}">
                 <div class="columns-flex">
                     <div class="columns-flex__sidebar u--text-center">
                         {% if story.cover %}
@@ -52,7 +52,7 @@ tags: page
 
     <ol class="story--list">
         {% for story in poetry %}
-            <li class="story--item">
+            <li class="story--item" id="poetry_{{ story.id }}">
                 <div class="columns-flex">
                     <div class="columns-flex__sidebar u--text-center">
                         {% if story.cover %}
@@ -91,7 +91,7 @@ tags: page
 
     <ol class="story--list">
         {% for story in comics %}
-            <li class="story--item">
+            <li class="story--item" id="comic_{{ story.id }}">
                 <div class="columns-flex">
                     <div class="columns-flex__sidebar u--text-center">
                         {% if story.cover %}
@@ -130,7 +130,7 @@ tags: page
 
     <ol class="story--list">
         {% for story in short_stories %}
-            <li class="story--item">
+            <li class="story--item" id="story_{{ story.id }}">
                 <h3 class="story--heading">&ldquo;{{ story.title }}&rdquo;</h3>
 
                 <p class="story--summary">

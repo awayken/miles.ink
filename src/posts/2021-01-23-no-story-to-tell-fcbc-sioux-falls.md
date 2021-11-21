@@ -8,7 +8,7 @@ tags:
     - fcbc
 ---
 
-"No Story To Tell" is now available at <a href="https://www.fullcirclebookcoop.com/">Full Circle Book Co-op in downtown Sioux Falls</a>. I listed it a little higher than at Amazon, but this way you can support a local author <em>and</em> a local shoppe when purchasing from them. Think of the karma! (Yes, this is practically the same paragraph as the Zanbroz post!)
+"No Story To Tell" is now available at <a href="https://www.fullcirclebookcoop.com/" target="_blank" rel="noopener">Full Circle Book Co-op in downtown Sioux Falls</a>. I listed it a little higher than at Amazon, but this way you can support a local author <em>and</em> a local shoppe when purchasing from them. Think of the karma! (Yes, this is practically the same paragraph as the Zanbroz post!)
 
 <!--more-->
 

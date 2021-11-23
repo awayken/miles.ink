@@ -9,6 +9,7 @@
     "deploy": "npm run build && npm run redeploy",
     "redeploy": "node deploy",
     "start": "eleventy --serve",
+    "start:debug": "DEBUG=Eleventy* eleventy --serve",
     "test": "test"
   },
   "repository": {

@@ -1,0 +1,238 @@
+{
+    "comics": {
+        "heading": "Comics &amp; Graphic Novels",
+        "items": [
+            {
+                "id": "robot_dance_club",
+                "title": "Robot Dance Club",
+                "cover": "/files/robot_dance_club/robot_dance_club-cover.jpg",
+                "publish_date": "2019-09-27",
+                "publisher": "Empire Comic Press",
+                "summary": "The robots have won.<br><br>That terrifying moment when humanity's creations acquired sentience is past.<br><br>But mankind does not live in fear. The human race is not enslaved, destroyed or wired up like batteries. It is simply ignored.<br><br>The robots carry on. They build. They destroy. They continue.<br><br>And, of course, they dance.",
+                "links": [
+                    {
+                        "label": "Buy on comiXology",
+                        "link": "https://www.comixology.com/Robot-Dance-Club/comics-series/139899"
+                    },
+                    {
+                        "label": "Learn More on EmpireComic.press",
+                        "link": "https://empirecomic.press/robot-dance-club"
+                    }
+                ]
+            }
+        ]
+    },
+    "novels": {
+        "heading": "Novels",
+        "items":[
+            {
+                "id": "no_story_to_tell",
+                "title": "No Story To Tell",
+                "cover": "/files/no_story_to_tell/no-story-to-tell-cover.jpg",
+                "publish_date": "2020-06-30",
+                "publisher": "Self-Published",
+                "summary": "No Story To Tell is the exploration of a woman’s last day on Earth through the lens of all the other days she spent here. Told alternately through the narrative of her day and through letters and other written pieces from various points in her past, the novel shows that no life is without its own compelling plot lines.",
+                "links": [
+                    {
+                        "label": "Buy Amazon Kindle (US)",
+                        "link": "https://www.amazon.com/dp/B08C36G8PY"
+                    },
+                    {
+                        "label": "Buy Amazon Kindle (UK)",
+                        "link": "https://www.amazon.co.uk/dp/B08C36G8PY"
+                    },
+                    {
+                        "label": "Buy Amazon Paperback (US)",
+                        "link": "https://www.amazon.com/dp/B08QG4M76H"
+                    },
+                    {
+                        "label": "Buy Amazon Paperback (UK)",
+                        "link": "https://www.amazon.co.uk/dp/B08QG4M76H"
+                    },
+                    {
+                        "label": "Shelve on Goodreads",
+                        "link": "https://www.goodreads.com/book/show/54378332-no-story-to-tell"
+                    }
+                ]
+            }
+        ]
+    },
+    "poetry": {
+        "heading": "Poetry",
+        "items":[
+            {
+                "id": "trinidentium",
+                "title": "Trinidentium",
+                "cover": "/files/trinidentium/trinidentium-cover.jpg",
+                "publish_date": "2021-09-09",
+                "publisher": "Self-Published",
+                "summary": "Trinidentium: Poems of Identity in Triplicate is the author’s debut collection of poetry. Inasmuch as poetry is an exploration of reality, this collection is a journey of self-identity.",
+                "links": [
+                    {
+                        "label": "Buy Amazon Kindle (US)",
+                        "link": "https://www.amazon.com/dp/B09FS3RSR2"
+                    },
+                    {
+                        "label": "Buy Amazon Kindle (UK)",
+                        "link": "https://www.amazon.co.uk/dp/B09FS3RSR2"
+                    },
+                    {
+                        "label": "Buy Amazon Paperback (US)",
+                        "link": "https://www.amazon.com/dp/B09KNGBDF7"
+                    },
+                    {
+                        "label": "Buy Amazon Paperback (UK)",
+                        "link": "https://www.amazon.co.uk/dp/B09KNGBDF7"
+                    },
+                    {
+                        "label": "Shelve on Goodreads",
+                        "link": "https://www.goodreads.com/book/show/59665189-trinidentium"
+                    }
+                ]
+            }
+        ]
+    },
+    "short_stories": {
+        "heading": "Short Stories",
+        "items":[
+            {
+                "id": "casios_dream",
+                "title": "Casio's Dream",
+                "publish_date": "2006-05-30",
+                "publisher": "New Tricks",
+                "publisher_logo": "http://www.new-tricks.org/vendors/img/2006Cover.PNG",
+                "summary": "Casio's Dream was my first pubication. This short story, at 2,921 words, is one of my longer published pieces. It first appeared in <a href=\"http://www.new-tricks.org/vendors/pdf/New%20Tricks%202006.pdf\" target=\"_blank\" rel=\"noopener\">the 2006 edition of the DSU literary magazine, New Tricks</a>.",
+                "links": [
+                    {
+                        "label": "Read (txt)",
+                        "link": "/files/casios_dream/casios_dream.txt"
+                    },
+                    {
+                        "label": "Read (epub)",
+                        "link": "/files/casios_dream/casios_dream.epub"
+                    },
+                    {
+                        "label": "Read (mobi)",
+                        "link": "/files/casios_dream/casios_dream.mobi"
+                    },
+                    {
+                        "label": "Read (pdf)",
+                        "link": "/files/casios_dream/casios_dream.pdf"
+                    }
+                ]
+            },
+            {
+                "id": "nearly_nine",
+                "title": "Nearly Nine",
+                "publish_date": "2014-01-24",
+                "publisher": "Mash Stories",
+                "publisher_logo": "http://www.mashstories.com/wp-content/uploads/2016/02/logo-2.png",
+                "summary": "This flash fiction piece (clocking in at 487 words) won the first ever <a href=\"http://mashstories.com/\" target=\"_blank\" rel=\"noopener\">Mash Stories competition</a> in the first quarter of 2014. It was also recorded as an audio piece by the Mash Stories podcast team.",
+                "links": [
+                    {
+                        "label": "Read (txt)",
+                        "link": "/files/nearly_nine/nearly_nine.txt"
+                    },
+                    {
+                        "label": "Read (epub)",
+                        "link": "/files/nearly_nine/nearly_nine.epub"
+                    },
+                    {
+                        "label": "Read (mobi)",
+                        "link": "/files/nearly_nine/nearly_nine.mobi"
+                    },
+                    {
+                        "label": "Read (pdf)",
+                        "link": "/files/nearly_nine/nearly_nine.pdf"
+                    },
+                    {
+                        "label": "Listen (mp3)",
+                        "link": "/files/nearly_nine/nearly_nine.mp3"
+                    }
+                ]
+            },
+            {
+                "id": "helping_hand",
+                "title": "A Helping Hand",
+                "publish_date": "2014-07-31",
+                "publisher": "Mash Stories",
+                "publisher_logo": "http://www.mashstories.com/wp-content/uploads/2016/02/logo-2.png",
+                "summary": "This 488-word flash fiction piece was shortlisted for the third quarter of the <a href=\"http://mashstories.com/\" target=\"_blank\" rel=\"noopener\">Mash Stories competition</a> in 2014. It was also recorded as an audio piece by the Mash Stories podcast team. It did not win that quarter, and I am totally okay with that.",
+                "links": [
+                    {
+                        "label": "Read (txt)",
+                        "link": "/files/helping_hand/helping_hand.txt"
+                    },
+                    {
+                        "label": "Read (epub)",
+                        "link": "/files/helping_hand/helping_hand.epub"
+                    },
+                    {
+                        "label": "Read (mobi)",
+                        "link": "/files/helping_hand/helping_hand.mobi"
+                    },
+                    {
+                        "label": "Read (pdf)",
+                        "link": "/files/helping_hand/helping_hand.pdf"
+                    },
+                    {
+                        "label": "Listen (mp3)",
+                        "link": "/files/helping_hand/helping_hand.mp3"
+                    }
+                ]
+            },
+            {
+                "id": "space_cowboy",
+                "title": "Space Cowboy",
+                "publish_date": "2017-07-06",
+                "publisher": "Speculative66",
+                "publisher_logo": "https://pbs.twimg.com/profile_images/760247307619082240/uOUn2U7a_400x400.jpg",
+                "summary": "This 66-word story was published in Issue 10 of <a href=\"http://speculative66.weebly.com/\" target=\"_blank\" rel=\"noopener\">Speculative66</a>, a digital literary magazine of speculative flash fiction.",
+                "links": [
+                    {
+                        "label": "Read (txt)",
+                        "link": "/files/space_cowboy/space_cowboy.txt"
+                    },
+                    {
+                        "label": "Read (epub)",
+                        "link": "/files/space_cowboy/space_cowboy.epub"
+                    },
+                    {
+                        "label": "Read (mobi)",
+                        "link": "/files/space_cowboy/space_cowboy.mobi"
+                    },
+                    {
+                        "label": "Read (pdf)",
+                        "link": "/files/space_cowboy/space_cowboy.pdf"
+                    }
+                ]
+            },
+            {
+                "id": "stone_son",
+                "title": "Stone Son",
+                "publish_date": "2018-04-06",
+                "publisher": "Speculative66",
+                "publisher_logo": "https://pbs.twimg.com/profile_images/760247307619082240/uOUn2U7a_400x400.jpg",
+                "summary": "This 66-word story was published in Issue 18 of <a href=\"http://speculative66.weebly.com/\" target=\"_blank\">Speculative66</a>, a digital literary magazine of speculative flash fiction.",
+                "links": [
+                    {
+                        "label": "Read (txt)",
+                        "link": "/files/stone_son/stone_son.txt"
+                    },
+                    {
+                        "label": "Read (epub)",
+                        "link": "/files/stone_son/stone_son.epub"
+                    },
+                    {
+                        "label": "Read (mobi)",
+                        "link": "/files/stone_son/stone_son.mobi"
+                    },
+                    {
+                        "label": "Read (pdf)",
+                        "link": "/files/stone_son/stone_son.pdf"
+                    }
+                ]
+            }
+        ]
+    }
+}

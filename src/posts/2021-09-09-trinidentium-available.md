@@ -16,6 +16,6 @@ I composed nearly a hundred poems over the course of the year. I started to cons
 
 It's a very personal and mature collection of poems. It was borne from very difficult times and reflects that genesis. It may not be an enjoyable read. It may be triggering. So&hellip; proceed with caution.
 
-With this new publication, I've also added "Poetry" to <a href="/read">my Read &amp; Discover page</a>. It lists my available collections along with a summary, purchase links and Goodreads links. You know, the standard stuff.
+With this new publication, I've also added "Poetry" to <a href="/read/#poetry">my Read &amp; Discover page</a>. It lists my available collections along with a summary, purchase links and Goodreads links. You know, the standard stuff.
 
 To learn more or purchase your own copy, visit <a href="/read/#poetry_trinidentium">the Trinidentium section on my Read &amp; Discover page</a>.

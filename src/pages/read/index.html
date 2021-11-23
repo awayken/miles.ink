@@ -8,147 +8,45 @@ tags: page
 
 <p>Do you want access to an exclusive ebook of some of my short stories? <a href="{{ site.patreonLink }}" target="_blank" rel="noopener">Support me on Patreon</a> and get at least that free ebook as a reward. Learn more about how you can support my habit on my <a href="/support/">Support page</a>.</p>
 
-<div class="story">
-    <h2 class="story--headline">Novels</h2>
+{% assign story_types = "novels, poetry, comics, short_stories" | split: ", " %}
+
+{% for type in story_types %}
+<div class="story" id="{{type}}">
+    <h2 class="story--headline">{{ works[type].heading }}</h2>
 
     <ol class="story--list">
-        {% for story in novels %}
-            <li class="story--item" id="novel_{{ story.id }}">
-                <div class="columns-flex">
-                    <div class="columns-flex__sidebar u--text-center">
-                        {% if story.cover %}
-                            <img src="{{ story.cover }}" alt="" height="300" width="188" />
-                        {% endif %}
-                    </div>
-                    <div>
-                        <h3 class="story--heading">&ldquo;{{ story.title }}&rdquo;</h3>
-
-                        <p class="story--summary">
-                            {{ story.summary }}
-
-                            <span class="story--meta">Published on {{ story.publish_date | shortdate }}</span>
-                        </p>
-
-                        {% if story.links %}
-                            <ol class="story--list">
-                                {% for link in story.links %}
-                                    <li class="story--link">
-                                        <a href="{{ link.link }}" target="_blank" rel="noopener">{{ link.label }}</a>
-                                    </li>
-                                {% endfor %}
-                            </ol>
-                        {% endif %}
-                    </div>
+        {% for story in works[type].items %}
+        <li class="story--item" id="{{type}}_{{ story.id }}">
+            <div class="columns-flex">
+                <div class="columns-flex__sidebar u--text-center">
+                    {% if story.cover %}
+                    <img src="{{ story.cover }}" alt="" height="300" width="188" />
+                    {% endif %}
                 </div>
-            </li>
-        {% endfor %}
-    </ol>
-</div>
+                <div>
+                    <h3 class="story--heading">&ldquo;{{ story.title }}&rdquo;</h3>
 
-<hr>
+                    <p class="story--summary">
+                        {{ story.summary }}
 
-<div class="story">
-    <h2 class="story--headline">Poetry</h2>
+                        <span class="story--meta">Published on {{ story.publish_date | shortdate }}</span>
+                    </p>
 
-    <ol class="story--list">
-        {% for story in poetry %}
-            <li class="story--item" id="poetry_{{ story.id }}">
-                <div class="columns-flex">
-                    <div class="columns-flex__sidebar u--text-center">
-                        {% if story.cover %}
-                            <img src="{{ story.cover }}" alt="" height="300" width="204" />
-                        {% endif %}
-                    </div>
-                    <div>
-                        <h3 class="story--heading">&ldquo;{{ story.title }}&rdquo;</h3>
-
-                        <p class="story--summary">
-                            {{ story.summary }}
-
-                            <span class="story--meta">Published on {{ story.publish_date | shortdate }}</span>
-                        </p>
-
-                        {% if story.links %}
-                            <ol class="story--list">
-                                {% for link in story.links %}
-                                    <li class="story--link">
-                                        <a href="{{ link.link }}" target="_blank" rel="noopener">{{ link.label }}</a>
-                                    </li>
-                                {% endfor %}
-                            </ol>
-                        {% endif %}
-                    </div>
-                </div>
-            </li>
-        {% endfor %}
-    </ol>
-</div>
-
-<hr>
-
-<div class="story">
-    <h2 class="story--headline">Comics &amp; Graphic Novels</h2>
-
-    <ol class="story--list">
-        {% for story in comics %}
-            <li class="story--item" id="comic_{{ story.id }}">
-                <div class="columns-flex">
-                    <div class="columns-flex__sidebar u--text-center">
-                        {% if story.cover %}
-                            <img src="{{ story.cover }}" alt="" height="300" width="204" />
-                        {% endif %}
-                    </div>
-                    <div>
-                        <h3 class="story--heading">&ldquo;{{ story.title }}&rdquo;</h3>
-
-                        <p class="story--summary">
-                            {{ story.summary }}
-
-                            <span class="story--meta">Published on {{ story.publish_date | shortdate }}</span>
-                        </p>
-
-                        {% if story.links %}
-                            <ol class="story--list">
-                                {% for link in story.links %}
-                                    <li class="story--link">
-                                        <a href="{{ link.link }}" target="_blank" rel="noopener">{{ link.label }}</a>
-                                    </li>
-                                {% endfor %}
-                            </ol>
-                        {% endif %}
-                    </div>
-                </div>
-            </li>
-        {% endfor %}
-    </ol>
-</div>
-
-<hr>
-
-<div class="story">
-    <h2 class="story--headline">Short Stories</h2>
-
-    <ol class="story--list">
-        {% for story in short_stories %}
-            <li class="story--item" id="story_{{ story.id }}">
-                <h3 class="story--heading">&ldquo;{{ story.title }}&rdquo;</h3>
-
-                <p class="story--summary">
-                    {{ story.summary }}
-
-                    <span class="story--meta">Published on {{ story.publish_date | shortdate }}</span>
-                </p>
-
-                {% if story.links %}
+                    {% if story.links %}
                     <ol class="story--list">
                         {% for link in story.links %}
-                            <li class="story--link">
-                                <a href="{{ link.link }}">{{ link.label }}</a>
-                            </li>
+                        <li class="story--link">
+                            <a href="{{ link.link }}" target="_blank" rel="noopener">{{ link.label }}</a>
+                        </li>
                         {% endfor %}
                     </ol>
-                {% endif %}
-            </li>
+                    {% endif %}
+                </div>
+            </div>
+        </li>
         {% endfor %}
     </ol>
 </div>
+
+<hr>
+{% endfor %}

@@ -96,12 +96,42 @@
         "heading": "Short Stories",
         "items":[
             {
+                "id": "meridians_arcs",
+                "title": "Meridian's Arcs",
+                "cover": "/files/meridians-arcs/meridians-arcs-cover.jpg",
+                "publish_date": "2023-02-10",
+                "publisher": "Self-Published",
+                "summary": "Meridian, South Dakota, is home to thousands of people and just as many stories. Within its city limits, you'll find ghosts, time travelers and common people just trying to understand life. In this debut collection of short stories, author Miles Rausch presents readers with a rich tapestry of tales all set in and around the fictional town of Meridian. Throughout the eighteen-story volume, Rausch gives readers insight into the vast and varied lives of the citizens of his world, drawing connections—some subtle, some overt—between people from all backgrounds and time periods.<br><br>Meridian's Arcs showcases some of the most popular and well-loved stories in the Meridian universe as well as introducing brand new works that enrich and expand its scale and scope. Between the stories are arcs of meaning that draw the characters together in time and place. Readers will find that this book is an introduction to the elaborate literary world of its author. Being much more than the sum of its parts, readers won't be able put this book down.",
+                "links": [
+                    {
+                        "label": "Buy Amazon Kindle (US)",
+                        "link": "https://www.amazon.com/dp/B0BX39ZN2D"
+                    },
+                    {
+                        "label": "Buy Amazon Kindle (UK)",
+                        "link": "https://www.amazon.co.uk/dp/B0BX39ZN2D"
+                    },
+                    {
+                        "label": "Buy Amazon Paperback (US)",
+                        "link": "https://www.amazon.com/dp/B0BVD68C82"
+                    },
+                    {
+                        "label": "Buy Amazon Paperback (UK)",
+                        "link": "https://www.amazon.co.uk/dp/B0BVD68C82"
+                    },
+                    {
+                        "label": "Shelve on Goodreads",
+                        "link": "https://www.goodreads.com/book/show/123163376-meridian-s-arcs"
+                    }
+                ]
+            },
+            {
                 "id": "casios_dream",
                 "title": "Casio's Dream",
                 "publish_date": "2006-05-30",
                 "publisher": "New Tricks",
                 "publisher_logo": "http://www.new-tricks.org/vendors/img/2006Cover.PNG",
-                "summary": "Casio's Dream was my first pubication. This short story, at 2,921 words, is one of my longer published pieces. It first appeared in <a href=\"http://www.new-tricks.org/vendors/pdf/New%20Tricks%202006.pdf\" target=\"_blank\" rel=\"noopener\">the 2006 edition of the DSU literary magazine, New Tricks</a>.",
+                "summary": "Casio's Dream was my first publication. This short story, at 2,921 words, is one of my longer published pieces. It first appeared in <a href=\"http://www.new-tricks.org/vendors/pdf/New%20Tricks%202006.pdf\" target=\"_blank\" rel=\"noopener\">the 2006 edition of the DSU literary magazine, New Tricks</a>.",
                 "links": [
                     {
                         "label": "Read (txt)",
